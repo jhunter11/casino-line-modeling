@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-06-18T18:50:18.929485Z",
+  "data_years": "2015-2024",
+  "total_rows": 55344,
+  "unique_matches": 27672,
+  "structural_features": [
+    "elo_diff",
+    "surface_elo_diff",
+    "rank_log_advantage",
+    "seed_advantage",
+    "age_diff",
+    "height_cm_diff",
+    "h2h_win_pct_diff",
+    "recent_win_pct_diff",
+    "recent_match_count_diff",
+    "days_rest_diff",
+    "best_of_5",
+    "is_grand_slam",
+    "surface_hard",
+    "surface_clay",
+    "surface_grass",
+    "surface_carpet",
+    "surface_unknown"
+  ],
+  "dropped_features": [
+    "p1_implied_prob",
+    "implied_prob_diff",
+    "odds_overround"
+  ],
+  "best_hp_used": {
+    "n_estimators": 500,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "min_child_weight": 10,
+    "subsample": 0.85
+  },
+  "holdout_year": 2024,
+  "production_train_rows": 55344,
+  "full_model_metrics": {
+    "brier": 0.21158081715167598,
+    "skill_pct": 15.367673139329607,
+    "z_score": 7.1594044678105835,
+    "accuracy": 0.6570221066319896,
+    "auc": 0.7227303838095512,
+    "log_loss": 0.6085532656320559,
+    "n": 6152,
+    "baseline_brier": 0.25
+  },
+  "noodds_model_metrics": {
+    "brier": 0.21156184816564855,
+    "skill_pct": 15.375260733740582,
+    "z_score": 7.163049943473229,
+    "accuracy": 0.6563719115734721,
+    "auc": 0.7228371819413184,
+    "log_loss": 0.6086169212792385,
+    "n": 6152,
+    "baseline_brier": 0.25
+  },
+  "skill_delta_from_dropping_odds": 0.007587594410974674,
+  "residual_analysis": {
+    "note": "No real bookmaker odds in ATP CSV data; p1_implied_prob was constant 0.5 fallback.",
+    "structural_vs_half_direction_accuracy": 0.6563719115734721,
+    "structural_vs_half_z_score": 24.52996363092943,
+    "pearson_r": 0.39272063071423435
+  },
+  "has_structural_edge": true,
+  "has_residual_direction_edge": true,
+  "booster_path": "/Users/jackhunter/.openclaw/workspace/data/hpo/tennis_xgboost_noodds_booster.bin"
+}

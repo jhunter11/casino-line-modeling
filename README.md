@@ -80,6 +80,24 @@ beat or be it.**
 - **Blind evaluation:** model probabilities fixed pre-game, settled on real outcomes; book
   simulation under crowd (∝ market) and sharp (adverse-selection) flow.
 
+## The models ship here — run them live
+
+The actual trained models are in [`models/`](models/), not just described:
+- **MLB & tennis:** the real trained **XGBoost boosters** (`models/mlb/*.bin`, `models/tennis/*.bin`) + calibration.
+- **World Cup:** the Elo + Dixon–Coles model (`models/wc/wc_dc_params.json` + `models/code/wc_dc_model.py`).
+- **Source:** the clean deployed model code in [`models/code/`](models/code/).
+
+```bash
+pip install -r requirements.txt
+python3 demo.py
+```
+
+`demo.py` loads each trained model and makes live predictions — including tennis **reproducing
+its recorded predictions straight from the committed booster** (e.g. *Medvedev vs Cilic →
+P(win) = 0.787*), MLB's game-winner booster responding to matchup inputs, and the World Cup
+Dixon–Coles model returning 3-way probabilities. (The one research model that used bookmaker
+odds as a feature is **deliberately excluded** — see the leakage audit.)
+
 ## Reproduce
 
 ```bash

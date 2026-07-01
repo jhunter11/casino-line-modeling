@@ -1,0 +1,47 @@
+{
+  "version": "v7_xgb",
+  "model_type": "XGBClassifier",
+  "gate_cleared": true,
+  "features": [
+    "team_elo_diff",
+    "rd_diff",
+    "sp_ra_diff",
+    "win_streak_diff",
+    "bullpen_drain_diff"
+  ],
+  "hyperparameters": {
+    "n_estimators": 300,
+    "best_iteration": 58,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "random_state": 42,
+    "early_stopping_rounds": 20
+  },
+  "elo_params": {
+    "K_TEAM": 20.0,
+    "K_PITCHER": 16.0,
+    "HOME_FIELD": 35.0
+  },
+  "performance": {
+    "holdout_2023_skill": 2.3365404766742204,
+    "holdout_2023_acc": 0.5541907514450867,
+    "live_2026_skill": 0.24810570549852473,
+    "logreg_baseline_skill": 2.08
+  },
+  "feature_importances_gain": {
+    "team_elo_diff": 10.002497673034668,
+    "rd_diff": 5.487879276275635,
+    "sp_ra_diff": 12.079543113708496,
+    "bullpen_drain_diff": 4.694842338562012,
+    "road_trip_fatigue_diff": 4.63055944442749,
+    "schedule_density_diff": 5.144134044647217,
+    "series_game_num": 3.641554594039917,
+    "win_streak_diff": 5.58467435836792,
+    "h2h_season_diff": 4.873507499694824,
+    "tape_study_diff": 5.040809154510498,
+    "park_factor": 5.4091715812683105
+  },
+  "booster_dump": "saved"
+}

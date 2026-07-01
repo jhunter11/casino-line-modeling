@@ -1,0 +1,12 @@
+{
+  "a": 0.10572,
+  "b": 0.057073,
+  "n_samples": 790,
+  "pre_bias_pp": 1.423,
+  "post_bias_pp": -0.0,
+  "method": "platt",
+  "formula": "p_cal = 1/(1+exp(-(a*logit(p)+b)))",
+  "brier_skill_before": -2.061,
+  "brier_skill_after": 0.157,
+  "data_source": "mlb_season_backtest.json (post-warmup)"
+}
