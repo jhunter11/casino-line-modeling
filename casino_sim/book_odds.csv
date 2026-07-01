@@ -1,0 +1,106 @@
+home_team,away_team,book,home_dec,draw_dec,away_dec
+Netherlands,Japan,sporttery,1.75,3.3,3.92
+United States,Paraguay,sporttery,1.78,3.1,4.08
+Brazil,Morocco,sporttery,1.53,3.5,5.25
+Portugal,DR Congo,sporttery,1.14,5.7,13.0
+France,Senegal,sporttery,1.38,3.9,6.75
+Australia,Turkey,sporttery,5.15,3.45,1.55
+Ivory Coast,Ecuador,sporttery,3.36,2.65,2.2
+Belgium,Egypt,sporttery,1.46,3.65,5.85
+Ghana,Panama,sporttery,1.93,3.0,3.6
+Haiti,Scotland,sporttery,7.65,4.25,1.31
+South Korea,Czech Republic,sporttery,2.49,2.75,2.75
+Canada,Bosnia and Herzegovina,sporttery,1.62,3.32,4.75
+England,Croatia,sporttery,1.55,3.4,5.25
+Austria,Jordan,sporttery,1.23,4.9,8.9
+Mexico,South Africa,sporttery,1.26,4.45,9.0
+Saudi Arabia,Uruguay,sporttery,8.45,4.35,1.28
+Uzbekistan,Colombia,sporttery,9.0,4.45,1.26
+Iran,New Zealand,sporttery,1.56,3.3,5.4
+Sweden,Tunisia,sporttery,1.74,3.1,4.3
+Argentina,Algeria,sporttery,1.28,4.25,8.9
+United States,Australia,sporttery,1.45,3.83,5.6
+Scotland,Morocco,sporttery,5.45,3.47,1.52
+Turkey,Paraguay,sporttery,1.78,3.28,3.8
+Netherlands,Sweden,sporttery,1.59,3.58,4.52
+Germany,Ivory Coast,sporttery,1.4,4.15,5.75
+Tunisia,Japan,sporttery,6.35,3.88,1.4
+Belgium,Iran,sporttery,1.26,4.76,7.95
+Uruguay,Cape Verde,sporttery,1.28,4.2,9.05
+New Zealand,Egypt,sporttery,6.0,3.87,1.42
+Argentina,Austria,sporttery,1.31,4.2,7.85
+Norway,Senegal,sporttery,1.97,3.23,3.2
+Jordan,Algeria,sporttery,6.5,4.36,1.34
+Panama,Croatia,sporttery,6.9,4.2,1.34
+Colombia,DR Congo,sporttery,1.36,3.85,7.5
+Switzerland,Canada,sporttery,2.3,2.62,3.2
+Bosnia and Herzegovina,Qatar,sporttery,1.38,4.45,5.55
+Scotland,Brazil,sporttery,7.85,4.8,1.26
+South Africa,South Korea,sporttery,4.65,3.28,1.64
+Czech Republic,Mexico,sporttery,3.35,3.25,1.91
+Ecuador,Germany,sporttery,3.62,3.6,1.74
+Japan,Sweden,sporttery,1.91,3.25,3.35
+Paraguay,Australia,sporttery,2.54,2.05,4.05
+Turkey,United States,sporttery,3.1,3.4,1.95
+Iran,New Zealand,kalshi,1.835,3.636,5.128
+Saudi Arabia,Uruguay,kalshi,28.571,1.198,8.0
+Argentina,Algeria,kalshi,1.439,4.878,8.696
+France,Senegal,kalshi,1.504,4.651,7.407
+Iraq,Norway,kalshi,15.385,7.407,1.242
+Austria,Jordan,kalshi,1.418,5.405,9.524
+England,Croatia,kalshi,1.739,4.082,5.405
+Ghana,Panama,kalshi,3.922,2.198,3.509
+Portugal,DR Congo,kalshi,1.307,6.061,11.765
+Uzbekistan,Colombia,kalshi,10.526,5.128,1.418
+Canada,Qatar,kalshi,1.325,6.061,11.765
+Czech Republic,South Africa,kalshi,1.361,4.878,15.385
+Mexico,South Korea,kalshi,2.105,3.39,4.255
+Switzerland,Bosnia and Herzegovina,kalshi,1.6,4.255,6.897
+Brazil,Haiti,kalshi,1.13,13.333,22.222
+Scotland,Morocco,kalshi,6.452,3.774,1.709
+Turkey,Paraguay,kalshi,2.105,3.509,4.082
+United States,Australia,kalshi,1.626,4.651,5.714
+Ecuador,Curaçao,kalshi,1.156,10.526,22.222
+Germany,Ivory Coast,kalshi,1.481,4.878,6.897
+Netherlands,Sweden,kalshi,1.739,4.255,5.128
+Belgium,Iran,kalshi,1.439,4.878,8.696
+Spain,Saudi Arabia,kalshi,1.13,11.765,28.571
+New Zealand,Egypt,kalshi,6.061,4.255,1.653
+Tunisia,Japan,kalshi,7.407,4.255,1.575
+Uruguay,Cape Verde,kalshi,1.481,4.444,9.524
+Argentina,Austria,kalshi,1.46,4.651,9.524
+France,Iraq,kalshi,1.105,13.333,40.0
+Jordan,Algeria,kalshi,6.452,4.444,1.575
+Norway,Senegal,kalshi,2.247,3.636,3.509
+Colombia,DR Congo,kalshi,1.575,4.255,7.407
+England,Ghana,kalshi,1.212,7.407,18.182
+Panama,Croatia,kalshi,8.0,4.651,1.504
+Portugal,Uzbekistan,kalshi,1.156,9.524,22.222
+Bosnia and Herzegovina,Qatar,kalshi,1.399,5.405,8.696
+Czech Republic,Mexico,kalshi,4.082,4.255,1.905
+Morocco,Haiti,kalshi,1.198,8.0,18.182
+South Africa,South Korea,kalshi,6.452,4.082,1.653
+Scotland,Brazil,kalshi,10.526,5.714,1.325
+Switzerland,Canada,kalshi,2.532,3.175,3.39
+Curaçao,Ivory Coast,kalshi,15.385,8.696,1.212
+Ecuador,Germany,kalshi,5.405,5.128,1.575
+Japan,Sweden,kalshi,1.942,3.636,4.444
+Paraguay,Australia,kalshi,2.74,2.353,4.444
+Tunisia,Netherlands,kalshi,40.0,11.765,1.117
+Turkey,United States,kalshi,4.082,4.444,1.835
+Cape Verde,Saudi Arabia,kalshi,2.817,3.509,2.817
+Egypt,Iran,kalshi,2.532,2.74,4.082
+Norway,France,kalshi,7.407,5.714,1.418
+New Zealand,Belgium,kalshi,15.385,8.696,1.198
+Senegal,Iraq,kalshi,1.258,7.407,13.333
+Uruguay,Spain,kalshi,6.452,3.774,1.709
+DR Congo,Uzbekistan,kalshi,1.802,4.444,4.651
+Colombia,Portugal,kalshi,4.255,4.082,1.905
+Croatia,Ghana,kalshi,1.835,3.39,6.061
+Algeria,Austria,kalshi,4.444,2.247,2.985
+Jordan,Argentina,kalshi,18.182,9.524,1.183
+Panama,England,kalshi,18.182,9.524,1.183
+South Africa,Canada,kalshi,5.714,3.922,1.739
+United States,Bosnia and Herzegovina,kalshi,1.439,5.128,9.524
+Brazil,Japan,kalshi,1.739,4.082,5.714
+Netherlands,Morocco,kalshi,2.198,3.39,3.922

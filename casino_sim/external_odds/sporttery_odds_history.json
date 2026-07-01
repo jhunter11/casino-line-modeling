@@ -1,0 +1,1037 @@
+{
+  "updated_at": "2026-06-23T13:42:25",
+  "records": {
+    "2026-06-14|Netherlands|Japan": {
+      "result_date": "2026-06-14",
+      "sporttery_date": "2026-06-15",
+      "sporttery_time": "04:00",
+      "match_num": "周日010",
+      "match_id": "2040171",
+      "home_cn": "荷兰",
+      "away_cn": "日本",
+      "home_en": "Netherlands",
+      "away_en": "Japan",
+      "probabilities": {
+        "home": 0.2758,
+        "draw": 0.2887,
+        "away": 0.4356
+      },
+      "had_odds": {
+        "home": 1.75,
+        "draw": 3.3,
+        "away": 3.92
+      },
+      "had_update": "2026-06-09 17:20:48",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-12|United States|Paraguay": {
+      "result_date": "2026-06-12",
+      "sporttery_date": "2026-06-13",
+      "sporttery_time": "09:00",
+      "match_num": "周五004",
+      "match_id": "2040165",
+      "home_cn": "美国",
+      "away_cn": "巴拉圭",
+      "home_en": "United States",
+      "away_en": "Paraguay",
+      "probabilities": {
+        "home": 0.3067,
+        "draw": 0.3005,
+        "away": 0.3929
+      },
+      "had_odds": {
+        "home": 1.78,
+        "draw": 3.1,
+        "away": 4.08
+      },
+      "had_update": "2026-06-11 17:13:38",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-13|Brazil|Morocco": {
+      "result_date": "2026-06-13",
+      "sporttery_date": "2026-06-14",
+      "sporttery_time": "06:00",
+      "match_num": "周六006",
+      "match_id": "2040167",
+      "home_cn": "巴西",
+      "away_cn": "摩洛哥",
+      "home_en": "Brazil",
+      "away_en": "Morocco",
+      "probabilities": {
+        "home": 0.368,
+        "draw": 0.3435,
+        "away": 0.2885
+      },
+      "had_odds": {
+        "home": 1.53,
+        "draw": 3.5,
+        "away": 5.25
+      },
+      "had_update": "2026-06-08 21:26:43",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-17|Portugal|DR Congo": {
+      "result_date": "2026-06-17",
+      "sporttery_date": "2026-06-18",
+      "sporttery_time": "01:00",
+      "match_num": "周三021",
+      "match_id": "2040182",
+      "home_cn": "葡萄牙",
+      "away_cn": "刚果(金)",
+      "home_en": "Portugal",
+      "away_en": "DR Congo",
+      "probabilities": {
+        "home": 0.6541,
+        "draw": 0.254,
+        "away": 0.0919
+      },
+      "had_odds": {
+        "home": 1.14,
+        "draw": 5.7,
+        "away": 13.0
+      },
+      "had_update": "2026-06-08 10:02:25",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-16|France|Senegal": {
+      "result_date": "2026-06-16",
+      "sporttery_date": "2026-06-17",
+      "sporttery_time": "03:00",
+      "match_num": "周二017",
+      "match_id": "2040178",
+      "home_cn": "法国",
+      "away_cn": "塞内加尔",
+      "home_en": "France",
+      "away_en": "Senegal",
+      "probabilities": {
+        "home": 0.5293,
+        "draw": 0.2819,
+        "away": 0.1888
+      },
+      "had_odds": {
+        "home": 1.38,
+        "draw": 3.9,
+        "away": 6.75
+      },
+      "had_update": "2026-06-11 21:40:49",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-13|Australia|Turkey": {
+      "result_date": "2026-06-13",
+      "sporttery_date": "2026-06-14",
+      "sporttery_time": "12:00",
+      "match_num": "周六008",
+      "match_id": "2040169",
+      "home_cn": "澳大利亚",
+      "away_cn": "土耳其",
+      "home_en": "Australia",
+      "away_en": "Turkey",
+      "probabilities": {
+        "home": 0.2461,
+        "draw": 0.3095,
+        "away": 0.4445
+      },
+      "had_odds": {
+        "home": 5.15,
+        "draw": 3.45,
+        "away": 1.55
+      },
+      "had_update": "2026-06-08 10:02:25",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-14|Ivory Coast|Ecuador": {
+      "result_date": "2026-06-14",
+      "sporttery_date": "2026-06-15",
+      "sporttery_time": "07:00",
+      "match_num": "周日011",
+      "match_id": "2040172",
+      "home_cn": "科特迪瓦",
+      "away_cn": "厄瓜多尔",
+      "home_en": "Ivory Coast",
+      "away_en": "Ecuador",
+      "probabilities": {
+        "home": 0.1488,
+        "draw": 0.4257,
+        "away": 0.4255
+      },
+      "had_odds": {
+        "home": 3.36,
+        "draw": 2.65,
+        "away": 2.2
+      },
+      "had_update": "2026-06-08 10:02:25",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-15|Belgium|Egypt": {
+      "result_date": "2026-06-15",
+      "sporttery_date": "2026-06-16",
+      "sporttery_time": "03:00",
+      "match_num": "周一014",
+      "match_id": "2040175",
+      "home_cn": "比利时",
+      "away_cn": "埃及",
+      "home_en": "Belgium",
+      "away_en": "Egypt",
+      "probabilities": {
+        "home": 0.536,
+        "draw": 0.2925,
+        "away": 0.1716
+      },
+      "had_odds": {
+        "home": 1.46,
+        "draw": 3.65,
+        "away": 5.85
+      },
+      "had_update": "2026-06-08 10:02:25",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-17|Ghana|Panama": {
+      "result_date": "2026-06-17",
+      "sporttery_date": "2026-06-18",
+      "sporttery_time": "07:00",
+      "match_num": "周三023",
+      "match_id": "2040184",
+      "home_cn": "加纳",
+      "away_cn": "巴拿马",
+      "home_en": "Ghana",
+      "away_en": "Panama",
+      "probabilities": {
+        "home": 0.4059,
+        "draw": 0.3003,
+        "away": 0.2938
+      },
+      "had_odds": {
+        "home": 1.93,
+        "draw": 3.0,
+        "away": 3.6
+      },
+      "had_update": "2026-06-08 10:02:25",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-13|Haiti|Scotland": {
+      "result_date": "2026-06-13",
+      "sporttery_date": "2026-06-14",
+      "sporttery_time": "09:00",
+      "match_num": "周六007",
+      "match_id": "2040168",
+      "home_cn": "海地",
+      "away_cn": "苏格兰",
+      "home_en": "Haiti",
+      "away_en": "Scotland",
+      "probabilities": {
+        "home": 0.0645,
+        "draw": 0.1404,
+        "away": 0.795
+      },
+      "had_odds": {
+        "home": 7.65,
+        "draw": 4.25,
+        "away": 1.31
+      },
+      "had_update": "2026-06-08 10:02:25",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-11|South Korea|Czech Republic": {
+      "result_date": "2026-06-11",
+      "sporttery_date": "2026-06-12",
+      "sporttery_time": "10:00",
+      "match_num": "周四002",
+      "match_id": "2040163",
+      "home_cn": "韩国",
+      "away_cn": "捷克",
+      "home_en": "South Korea",
+      "away_en": "Czech Republic",
+      "probabilities": {
+        "home": 0.3324,
+        "draw": 0.2936,
+        "away": 0.374
+      },
+      "had_odds": {
+        "home": 2.49,
+        "draw": 2.75,
+        "away": 2.75
+      },
+      "had_update": "2026-06-11 20:56:37",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-12|Canada|Bosnia and Herzegovina": {
+      "result_date": "2026-06-12",
+      "sporttery_date": "2026-06-13",
+      "sporttery_time": "03:00",
+      "match_num": "周五003",
+      "match_id": "2040164",
+      "home_cn": "加拿大",
+      "away_cn": "波黑",
+      "home_en": "Canada",
+      "away_en": "Bosnia and Herzegovina",
+      "probabilities": {
+        "home": 0.624,
+        "draw": 0.2511,
+        "away": 0.1249
+      },
+      "had_odds": {
+        "home": 1.62,
+        "draw": 3.32,
+        "away": 4.75
+      },
+      "had_update": "2026-06-11 17:27:31",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-17|England|Croatia": {
+      "result_date": "2026-06-17",
+      "sporttery_date": "2026-06-18",
+      "sporttery_time": "04:00",
+      "match_num": "周三022",
+      "match_id": "2040183",
+      "home_cn": "英格兰",
+      "away_cn": "克罗地亚",
+      "home_en": "England",
+      "away_en": "Croatia",
+      "probabilities": {
+        "home": 0.5407,
+        "draw": 0.2954,
+        "away": 0.1639
+      },
+      "had_odds": {
+        "home": 1.55,
+        "draw": 3.4,
+        "away": 5.25
+      },
+      "had_update": "2026-06-08 10:02:25",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-16|Austria|Jordan": {
+      "result_date": "2026-06-16",
+      "sporttery_date": "2026-06-17",
+      "sporttery_time": "12:00",
+      "match_num": "周二020",
+      "match_id": "2040181",
+      "home_cn": "奥地利",
+      "away_cn": "约旦",
+      "home_en": "Austria",
+      "away_en": "Jordan",
+      "probabilities": {
+        "home": 0.8127,
+        "draw": 0.1386,
+        "away": 0.0487
+      },
+      "had_odds": {
+        "home": 1.23,
+        "draw": 4.9,
+        "away": 8.9
+      },
+      "had_update": "2026-06-08 10:02:25",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-11|Mexico|South Africa": {
+      "result_date": "2026-06-11",
+      "sporttery_date": "2026-06-12",
+      "sporttery_time": "03:00",
+      "match_num": "周四001",
+      "match_id": "2040162",
+      "home_cn": "墨西哥",
+      "away_cn": "南非",
+      "home_en": "Mexico",
+      "away_en": "South Africa",
+      "probabilities": {
+        "home": 0.7926,
+        "draw": 0.1549,
+        "away": 0.0525
+      },
+      "had_odds": {
+        "home": 1.26,
+        "draw": 4.45,
+        "away": 9.0
+      },
+      "had_update": "2026-06-11 12:25:40",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-15|Saudi Arabia|Uruguay": {
+      "result_date": "2026-06-15",
+      "sporttery_date": "2026-06-16",
+      "sporttery_time": "06:00",
+      "match_num": "周一015",
+      "match_id": "2040176",
+      "home_cn": "沙特阿拉伯",
+      "away_cn": "乌拉圭",
+      "home_en": "Saudi Arabia",
+      "away_en": "Uruguay",
+      "probabilities": {
+        "home": 0.0576,
+        "draw": 0.2295,
+        "away": 0.7129
+      },
+      "had_odds": {
+        "home": 8.45,
+        "draw": 4.35,
+        "away": 1.28
+      },
+      "had_update": "2026-06-08 10:02:25",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-17|Uzbekistan|Colombia": {
+      "result_date": "2026-06-17",
+      "sporttery_date": "2026-06-18",
+      "sporttery_time": "10:00",
+      "match_num": "周三024",
+      "match_id": "2040185",
+      "home_cn": "乌兹别克斯坦",
+      "away_cn": "哥伦比亚",
+      "home_en": "Uzbekistan",
+      "away_en": "Colombia",
+      "probabilities": {
+        "home": 0.0552,
+        "draw": 0.1757,
+        "away": 0.7692
+      },
+      "had_odds": {
+        "home": 9.0,
+        "draw": 4.45,
+        "away": 1.26
+      },
+      "had_update": "2026-06-08 10:02:25",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-15|Iran|New Zealand": {
+      "result_date": "2026-06-15",
+      "sporttery_date": "2026-06-16",
+      "sporttery_time": "09:00",
+      "match_num": "周一016",
+      "match_id": "2040177",
+      "home_cn": "伊朗",
+      "away_cn": "新西兰",
+      "home_en": "Iran",
+      "away_en": "New Zealand",
+      "probabilities": {
+        "home": 0.59,
+        "draw": 0.281,
+        "away": 0.1291
+      },
+      "had_odds": {
+        "home": 1.56,
+        "draw": 3.3,
+        "away": 5.4
+      },
+      "had_update": "2026-06-08 10:02:25",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-14|Sweden|Tunisia": {
+      "result_date": "2026-06-14",
+      "sporttery_date": "2026-06-15",
+      "sporttery_time": "10:00",
+      "match_num": "周日012",
+      "match_id": "2040173",
+      "home_cn": "瑞典",
+      "away_cn": "突尼斯",
+      "home_en": "Sweden",
+      "away_en": "Tunisia",
+      "probabilities": {
+        "home": 0.5205,
+        "draw": 0.2645,
+        "away": 0.215
+      },
+      "had_odds": {
+        "home": 1.74,
+        "draw": 3.1,
+        "away": 4.3
+      },
+      "had_update": "2026-06-08 10:02:25",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-16|Argentina|Algeria": {
+      "result_date": "2026-06-16",
+      "sporttery_date": "2026-06-17",
+      "sporttery_time": "09:00",
+      "match_num": "周二019",
+      "match_id": "2040180",
+      "home_cn": "阿根廷",
+      "away_cn": "阿尔及利亚",
+      "home_en": "Argentina",
+      "away_en": "Algeria",
+      "probabilities": {
+        "home": 0.7204,
+        "draw": 0.2154,
+        "away": 0.0641
+      },
+      "had_odds": {
+        "home": 1.28,
+        "draw": 4.25,
+        "away": 8.9
+      },
+      "had_update": "2026-06-08 10:02:25",
+      "captured_at": "2026-06-11T21:53:47",
+      "source": "legacy_csv_20260611"
+    },
+    "2026-06-19|United States|Australia": {
+      "result_date": "2026-06-19",
+      "sporttery_date": "2026-06-20",
+      "sporttery_time": "03:00",
+      "match_num": "周五029",
+      "match_id": "2040239",
+      "home_cn": "美国",
+      "away_cn": "澳大利亚",
+      "home_en": "United States",
+      "away_en": "Australia",
+      "probabilities": {
+        "home": 0.4977,
+        "draw": 0.2535,
+        "away": 0.2488
+      },
+      "had_odds": {
+        "home": 1.45,
+        "draw": 3.83,
+        "away": 5.6
+      },
+      "had_update": "2026-06-18 13:35:08",
+      "captured_at": "2026-06-19T17:40:03",
+      "source": "site_snapshot"
+    },
+    "2026-06-19|Scotland|Morocco": {
+      "result_date": "2026-06-19",
+      "sporttery_date": "2026-06-20",
+      "sporttery_time": "06:00",
+      "match_num": "周五030",
+      "match_id": "2040240",
+      "home_cn": "苏格兰",
+      "away_cn": "摩洛哥",
+      "home_en": "Scotland",
+      "away_en": "Morocco",
+      "probabilities": {
+        "home": 0.163,
+        "draw": 0.2871,
+        "away": 0.5498
+      },
+      "had_odds": {
+        "home": 5.45,
+        "draw": 3.47,
+        "away": 1.52
+      },
+      "had_update": "2026-06-19 15:36:36",
+      "captured_at": "2026-06-19T17:40:03",
+      "source": "site_snapshot"
+    },
+    "2026-06-19|Turkey|Paraguay": {
+      "result_date": "2026-06-19",
+      "sporttery_date": "2026-06-20",
+      "sporttery_time": "11:00",
+      "match_num": "周五032",
+      "match_id": "2040242",
+      "home_cn": "土耳其",
+      "away_cn": "巴拉圭",
+      "home_en": "Turkey",
+      "away_en": "Paraguay",
+      "probabilities": {
+        "home": 0.4497,
+        "draw": 0.2931,
+        "away": 0.2572
+      },
+      "had_odds": {
+        "home": 1.78,
+        "draw": 3.28,
+        "away": 3.8
+      },
+      "had_update": "2026-06-19 15:09:40",
+      "captured_at": "2026-06-19T17:40:03",
+      "source": "site_snapshot"
+    },
+    "2026-06-20|Netherlands|Sweden": {
+      "result_date": "2026-06-20",
+      "sporttery_date": "2026-06-21",
+      "sporttery_time": "01:00",
+      "match_num": "周六033",
+      "match_id": "2040243",
+      "home_cn": "荷兰",
+      "away_cn": "瑞典",
+      "home_en": "Netherlands",
+      "away_en": "Sweden",
+      "probabilities": {
+        "home": 0.5739,
+        "draw": 0.2289,
+        "away": 0.1973
+      },
+      "had_odds": {
+        "home": 1.59,
+        "draw": 3.58,
+        "away": 4.52
+      },
+      "had_update": "2026-06-18 09:22:38",
+      "captured_at": "2026-06-19T17:40:03",
+      "source": "site_snapshot"
+    },
+    "2026-06-20|Germany|Ivory Coast": {
+      "result_date": "2026-06-20",
+      "sporttery_date": "2026-06-21",
+      "sporttery_time": "04:00",
+      "match_num": "周六034",
+      "match_id": "2040244",
+      "home_cn": "德国",
+      "away_cn": "科特迪瓦",
+      "home_en": "Germany",
+      "away_en": "Ivory Coast",
+      "probabilities": {
+        "home": 0.6157,
+        "draw": 0.2315,
+        "away": 0.1528
+      },
+      "had_odds": {
+        "home": 1.4,
+        "draw": 4.15,
+        "away": 5.75
+      },
+      "had_update": "2026-06-18 09:22:38",
+      "captured_at": "2026-06-19T17:40:03",
+      "source": "site_snapshot"
+    },
+    "2026-06-20|Tunisia|Japan": {
+      "result_date": "2026-06-20",
+      "sporttery_date": "2026-06-21",
+      "sporttery_time": "12:00",
+      "match_num": "周六036",
+      "match_id": "2040246",
+      "home_cn": "突尼斯",
+      "away_cn": "日本",
+      "home_en": "Tunisia",
+      "away_en": "Japan",
+      "probabilities": {
+        "home": 0.1116,
+        "draw": 0.2175,
+        "away": 0.6709
+      },
+      "had_odds": {
+        "home": 6.35,
+        "draw": 3.88,
+        "away": 1.4
+      },
+      "had_update": "2026-06-19 14:22:16",
+      "captured_at": "2026-06-19T17:40:03",
+      "source": "site_snapshot"
+    },
+    "2026-06-21|Belgium|Iran": {
+      "result_date": "2026-06-21",
+      "sporttery_date": "2026-06-22",
+      "sporttery_time": "03:00",
+      "match_num": "周日038",
+      "match_id": "2040248",
+      "home_cn": "比利时",
+      "away_cn": "伊朗",
+      "home_en": "Belgium",
+      "away_en": "Iran",
+      "probabilities": {
+        "home": 0.6702,
+        "draw": 0.2079,
+        "away": 0.1219
+      },
+      "had_odds": {
+        "home": 1.26,
+        "draw": 4.76,
+        "away": 7.95
+      },
+      "had_update": "2026-06-21 18:04:41",
+      "captured_at": "2026-06-22T02:35:24",
+      "source": "site_snapshot"
+    },
+    "2026-06-21|Uruguay|Cape Verde": {
+      "result_date": "2026-06-21",
+      "sporttery_date": "2026-06-22",
+      "sporttery_time": "06:00",
+      "match_num": "周日039",
+      "match_id": "2040249",
+      "home_cn": "乌拉圭",
+      "away_cn": "佛得角",
+      "home_en": "Uruguay",
+      "away_en": "Cape Verde",
+      "probabilities": {
+        "home": 0.6972,
+        "draw": 0.2194,
+        "away": 0.0834
+      },
+      "had_odds": {
+        "home": 1.28,
+        "draw": 4.2,
+        "away": 9.05
+      },
+      "had_update": "2026-06-21 21:08:31",
+      "captured_at": "2026-06-22T05:35:25",
+      "source": "site_snapshot"
+    },
+    "2026-06-21|New Zealand|Egypt": {
+      "result_date": "2026-06-21",
+      "sporttery_date": "2026-06-22",
+      "sporttery_time": "09:00",
+      "match_num": "周日040",
+      "match_id": "2040250",
+      "home_cn": "新西兰",
+      "away_cn": "埃及",
+      "home_en": "New Zealand",
+      "away_en": "Egypt",
+      "probabilities": {
+        "home": 0.1419,
+        "draw": 0.2679,
+        "away": 0.5902
+      },
+      "had_odds": {
+        "home": 6.0,
+        "draw": 3.87,
+        "away": 1.42
+      },
+      "had_update": "2026-06-21 17:31:19",
+      "captured_at": "2026-06-22T08:35:22",
+      "source": "site_snapshot"
+    },
+    "2026-06-22|Argentina|Austria": {
+      "result_date": "2026-06-22",
+      "sporttery_date": "2026-06-23",
+      "sporttery_time": "01:00",
+      "match_num": "周一041",
+      "match_id": "2040251",
+      "home_cn": "阿根廷",
+      "away_cn": "奥地利",
+      "home_en": "Argentina",
+      "away_en": "Austria",
+      "probabilities": {
+        "home": 0.6366,
+        "draw": 0.2501,
+        "away": 0.1133
+      },
+      "had_odds": {
+        "home": 1.31,
+        "draw": 4.2,
+        "away": 7.85
+      },
+      "had_update": "2026-06-22 21:38:50",
+      "captured_at": "2026-06-23T00:35:26",
+      "source": "site_snapshot"
+    },
+    "2026-06-22|Norway|Senegal": {
+      "result_date": "2026-06-22",
+      "sporttery_date": "2026-06-23",
+      "sporttery_time": "08:00",
+      "match_num": "周一043",
+      "match_id": "2040253",
+      "home_cn": "挪威",
+      "away_cn": "塞内加尔",
+      "home_en": "Norway",
+      "away_en": "Senegal",
+      "probabilities": {
+        "home": 0.4406,
+        "draw": 0.2787,
+        "away": 0.2808
+      },
+      "had_odds": {
+        "home": 1.97,
+        "draw": 3.23,
+        "away": 3.2
+      },
+      "had_update": "2026-06-22 21:37:39",
+      "captured_at": "2026-06-23T07:35:24",
+      "source": "site_snapshot"
+    },
+    "2026-06-22|Jordan|Algeria": {
+      "result_date": "2026-06-22",
+      "sporttery_date": "2026-06-23",
+      "sporttery_time": "11:00",
+      "match_num": "周一044",
+      "match_id": "2040254",
+      "home_cn": "约旦",
+      "away_cn": "阿尔及利亚",
+      "home_en": "Jordan",
+      "away_en": "Algeria",
+      "probabilities": {
+        "home": 0.1233,
+        "draw": 0.2014,
+        "away": 0.6752
+      },
+      "had_odds": {
+        "home": 6.5,
+        "draw": 4.36,
+        "away": 1.34
+      },
+      "had_update": "2026-06-22 20:51:34",
+      "captured_at": "2026-06-23T07:35:24",
+      "source": "site_snapshot"
+    },
+    "2026-06-23|Panama|Croatia": {
+      "result_date": "2026-06-23",
+      "sporttery_date": "2026-06-24",
+      "sporttery_time": "07:00",
+      "match_num": "周二047",
+      "match_id": "2040257",
+      "home_cn": "巴拿马",
+      "away_cn": "克罗地亚",
+      "home_en": "Panama",
+      "away_en": "Croatia",
+      "probabilities": {
+        "home": 0.1132,
+        "draw": 0.2023,
+        "away": 0.6845
+      },
+      "had_odds": {
+        "home": 6.9,
+        "draw": 4.2,
+        "away": 1.34
+      },
+      "had_update": "2026-06-23 11:09:41",
+      "captured_at": "2026-06-23T13:42:25",
+      "source": "site_snapshot"
+    },
+    "2026-06-23|Colombia|DR Congo": {
+      "result_date": "2026-06-23",
+      "sporttery_date": "2026-06-24",
+      "sporttery_time": "10:00",
+      "match_num": "周二048",
+      "match_id": "2040258",
+      "home_cn": "哥伦比亚",
+      "away_cn": "刚果(金)",
+      "home_en": "Colombia",
+      "away_en": "DR Congo",
+      "probabilities": {
+        "home": 0.6124,
+        "draw": 0.2551,
+        "away": 0.1324
+      },
+      "had_odds": {
+        "home": 1.36,
+        "draw": 3.85,
+        "away": 7.5
+      },
+      "had_update": "2026-06-21 09:15:03",
+      "captured_at": "2026-06-23T13:42:25",
+      "source": "site_snapshot"
+    },
+    "2026-06-25|Switzerland|Canada": {
+      "result_date": "2026-06-25",
+      "sporttery_date": "2026-06-25",
+      "sporttery_time": "03:00",
+      "match_num": "周三049",
+      "match_id": "2040285",
+      "home_cn": "瑞士",
+      "away_cn": "加拿大",
+      "home_en": "Switzerland",
+      "away_en": "Canada",
+      "probabilities": {
+        "home": 0.4157,
+        "draw": 0.3072,
+        "away": 0.2771
+      },
+      "had_odds": {
+        "home": 2.3,
+        "draw": 2.62,
+        "away": 3.2
+      },
+      "had_update": "2026-06-22 09:27:20",
+      "captured_at": "2026-06-23T13:42:25",
+      "source": "site_snapshot"
+    },
+    "2026-06-24|Bosnia and Herzegovina|Qatar": {
+      "result_date": "2026-06-24",
+      "sporttery_date": "2026-06-25",
+      "sporttery_time": "03:00",
+      "match_num": "周三050",
+      "match_id": "2040286",
+      "home_cn": "波黑",
+      "away_cn": "卡塔尔",
+      "home_en": "Bosnia and Herzegovina",
+      "away_en": "Qatar",
+      "probabilities": {
+        "home": 0.6664,
+        "draw": 0.2011,
+        "away": 0.1325
+      },
+      "had_odds": {
+        "home": 1.38,
+        "draw": 4.45,
+        "away": 5.55
+      },
+      "had_update": "2026-06-22 09:27:20",
+      "captured_at": "2026-06-23T13:42:25",
+      "source": "site_snapshot"
+    },
+    "2026-06-24|Scotland|Brazil": {
+      "result_date": "2026-06-24",
+      "sporttery_date": "2026-06-25",
+      "sporttery_time": "06:00",
+      "match_num": "周三051",
+      "match_id": "2040287",
+      "home_cn": "苏格兰",
+      "away_cn": "巴西",
+      "home_en": "Scotland",
+      "away_en": "Brazil",
+      "probabilities": {
+        "home": 0.1131,
+        "draw": 0.1916,
+        "away": 0.6954
+      },
+      "had_odds": {
+        "home": 7.85,
+        "draw": 4.8,
+        "away": 1.26
+      },
+      "had_update": "2026-06-22 09:27:20",
+      "captured_at": "2026-06-23T13:42:25",
+      "source": "site_snapshot"
+    },
+    "2026-06-24|South Africa|South Korea": {
+      "result_date": "2026-06-24",
+      "sporttery_date": "2026-06-25",
+      "sporttery_time": "09:00",
+      "match_num": "周三053",
+      "match_id": "2040289",
+      "home_cn": "南非",
+      "away_cn": "韩国",
+      "home_en": "South Africa",
+      "away_en": "South Korea",
+      "probabilities": {
+        "home": 0.1608,
+        "draw": 0.2568,
+        "away": 0.5824
+      },
+      "had_odds": {
+        "home": 4.65,
+        "draw": 3.28,
+        "away": 1.64
+      },
+      "had_update": "2026-06-22 09:27:20",
+      "captured_at": "2026-06-23T13:42:25",
+      "source": "site_snapshot"
+    },
+    "2026-06-25|Czech Republic|Mexico": {
+      "result_date": "2026-06-25",
+      "sporttery_date": "2026-06-25",
+      "sporttery_time": "09:00",
+      "match_num": "周三054",
+      "match_id": "2040290",
+      "home_cn": "捷克",
+      "away_cn": "墨西哥",
+      "home_en": "Czech Republic",
+      "away_en": "Mexico",
+      "probabilities": {
+        "home": 0.2047,
+        "draw": 0.241,
+        "away": 0.5544
+      },
+      "had_odds": {
+        "home": 3.35,
+        "draw": 3.25,
+        "away": 1.91
+      },
+      "had_update": "2026-06-22 09:27:20",
+      "captured_at": "2026-06-23T13:42:25",
+      "source": "site_snapshot"
+    },
+    "2026-06-25|Ecuador|Germany": {
+      "result_date": "2026-06-25",
+      "sporttery_date": "2026-06-26",
+      "sporttery_time": "04:00",
+      "match_num": "周四055",
+      "match_id": "2040291",
+      "home_cn": "厄瓜多尔",
+      "away_cn": "德国",
+      "home_en": "Ecuador",
+      "away_en": "Germany",
+      "probabilities": {
+        "home": 0.2395,
+        "draw": 0.289,
+        "away": 0.4715
+      },
+      "had_odds": {
+        "home": 3.62,
+        "draw": 3.6,
+        "away": 1.74
+      },
+      "had_update": "2026-06-23 09:39:29",
+      "captured_at": "2026-06-23T13:42:25",
+      "source": "site_snapshot"
+    },
+    "2026-06-25|Japan|Sweden": {
+      "result_date": "2026-06-25",
+      "sporttery_date": "2026-06-26",
+      "sporttery_time": "07:00",
+      "match_num": "周四058",
+      "match_id": "2040294",
+      "home_cn": "日本",
+      "away_cn": "瑞典",
+      "home_en": "Japan",
+      "away_en": "Sweden",
+      "probabilities": {
+        "home": 0.5715,
+        "draw": 0.2418,
+        "away": 0.1867
+      },
+      "had_odds": {
+        "home": 1.91,
+        "draw": 3.25,
+        "away": 3.35
+      },
+      "had_update": "2026-06-23 09:39:29",
+      "captured_at": "2026-06-23T13:42:25",
+      "source": "site_snapshot"
+    },
+    "2026-06-25|Paraguay|Australia": {
+      "result_date": "2026-06-25",
+      "sporttery_date": "2026-06-26",
+      "sporttery_time": "10:00",
+      "match_num": "周四059",
+      "match_id": "2040295",
+      "home_cn": "巴拉圭",
+      "away_cn": "澳大利亚",
+      "home_en": "Paraguay",
+      "away_en": "Australia",
+      "probabilities": {
+        "home": 0.3313,
+        "draw": 0.4081,
+        "away": 0.2606
+      },
+      "had_odds": {
+        "home": 2.54,
+        "draw": 2.05,
+        "away": 4.05
+      },
+      "had_update": "2026-06-23 09:39:29",
+      "captured_at": "2026-06-23T13:42:25",
+      "source": "site_snapshot"
+    },
+    "2026-06-26|Turkey|United States": {
+      "result_date": "2026-06-26",
+      "sporttery_date": "2026-06-26",
+      "sporttery_time": "10:00",
+      "match_num": "周四060",
+      "match_id": "2040296",
+      "home_cn": "土耳其",
+      "away_cn": "美国",
+      "home_en": "Turkey",
+      "away_en": "United States",
+      "probabilities": {
+        "home": 0.3278,
+        "draw": 0.2414,
+        "away": 0.4308
+      },
+      "had_odds": {
+        "home": 3.1,
+        "draw": 3.4,
+        "away": 1.95
+      },
+      "had_update": "2026-06-23 09:39:29",
+      "captured_at": "2026-06-23T13:42:25",
+      "source": "site_snapshot"
+    }
+  }
+}

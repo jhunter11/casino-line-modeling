@@ -1,0 +1,147 @@
+{
+  "params": {
+    "bankroll": 50000000,
+    "total_handle": 50000000,
+    "n_sims": 20000,
+    "vig": 0.045,
+    "gammas": [
+      1.0,
+      1.3,
+      1.6
+    ],
+    "sentiment_sigma": 0.3,
+    "n_matches": 62
+  },
+  "by_truth": {
+    "model": {
+      "1.0": {
+        "honest": {
+          "mean_profit": 2145896.7662754324,
+          "mean_hold_pct": 0.042917935325508645,
+          "p05_profit": -119472.32604891164,
+          "p95_profit": 4348906.799537064,
+          "worst_profit": -3274213.341951677,
+          "prob_loss": 0.06045,
+          "max_drawdown_vs_bankroll": 0.06548426683903354
+        },
+        "shaded": {
+          "mean_profit": 2144902.65024701,
+          "mean_hold_pct": 0.0428980530049402,
+          "p05_profit": -97895.4274372046,
+          "p95_profit": 4313334.052081079,
+          "worst_profit": -4324282.613930488,
+          "prob_loss": 0.0588,
+          "max_drawdown_vs_bankroll": 0.08648565227860976
+        },
+        "avg_favorite_shade_cents": -2.686023446673766e-16
+      },
+      "1.3": {
+        "honest": {
+          "mean_profit": 2147157.936741602,
+          "mean_hold_pct": 0.042943158734832045,
+          "p05_profit": -216636.60720272484,
+          "p95_profit": 4538023.024189402,
+          "worst_profit": -3483028.680775026,
+          "prob_loss": 0.06795,
+          "max_drawdown_vs_bankroll": 0.06966057361550052
+        },
+        "shaded": {
+          "mean_profit": 2324782.9862166555,
+          "mean_hold_pct": 0.04649565972433311,
+          "p05_profit": 123459.03663739617,
+          "p95_profit": 4503385.787309754,
+          "worst_profit": -3050836.2363697216,
+          "prob_loss": 0.04045,
+          "max_drawdown_vs_bankroll": 0.06101672472739443
+        },
+        "avg_favorite_shade_cents": 3.017693963102738
+      },
+      "1.6": {
+        "honest": {
+          "mean_profit": 2149025.903582719,
+          "mean_hold_pct": 0.042980518071654386,
+          "p05_profit": -735782.0772561795,
+          "p95_profit": 5153037.177628231,
+          "worst_profit": -4312242.4966714,
+          "prob_loss": 0.11465,
+          "max_drawdown_vs_bankroll": 0.086244849933428
+        },
+        "shaded": {
+          "mean_profit": 2868999.22862927,
+          "mean_hold_pct": 0.057379984572585405,
+          "p05_profit": 557623.1716020757,
+          "p95_profit": 5199792.890598148,
+          "worst_profit": -2612484.5754763214,
+          "prob_loss": 0.0199,
+          "max_drawdown_vs_bankroll": 0.05224969150952643
+        },
+        "avg_favorite_shade_cents": 5.813743652724202
+      }
+    },
+    "market": {
+      "1.0": {
+        "honest": {
+          "mean_profit": 2138649.6653715586,
+          "mean_hold_pct": 0.04277299330743117,
+          "p05_profit": 3055.5837751967774,
+          "p95_profit": 4183484.877366719,
+          "worst_profit": -3670018.248485731,
+          "prob_loss": 0.0497,
+          "max_drawdown_vs_bankroll": 0.07340036496971462
+        },
+        "shaded": {
+          "mean_profit": 2145791.1558803404,
+          "mean_hold_pct": 0.042915823117606805,
+          "p05_profit": 9878.883691265873,
+          "p95_profit": 4189275.6241928902,
+          "worst_profit": -3380310.6277971617,
+          "prob_loss": 0.04945,
+          "max_drawdown_vs_bankroll": 0.06760621255594323
+        },
+        "avg_favorite_shade_cents": 1.0744093786695064e-15
+      },
+      "1.3": {
+        "honest": {
+          "mean_profit": 2142010.32707357,
+          "mean_hold_pct": 0.042840206541471394,
+          "p05_profit": -120596.40077735586,
+          "p95_profit": 4503381.935131587,
+          "worst_profit": -2724132.2370981793,
+          "prob_loss": 0.0593,
+          "max_drawdown_vs_bankroll": 0.054482644741963585
+        },
+        "shaded": {
+          "mean_profit": 2418149.8290369115,
+          "mean_hold_pct": 0.04836299658073823,
+          "p05_profit": 379577.47364524245,
+          "p95_profit": 4471592.312590322,
+          "worst_profit": -3035955.7747652717,
+          "prob_loss": 0.02495,
+          "max_drawdown_vs_bankroll": 0.06071911549530543
+        },
+        "avg_favorite_shade_cents": 3.6947502864642647
+      },
+      "1.6": {
+        "honest": {
+          "mean_profit": 2147690.227985573,
+          "mean_hold_pct": 0.04295380455971146,
+          "p05_profit": -853573.1256226108,
+          "p95_profit": 5351888.909463219,
+          "worst_profit": -4568848.4704487445,
+          "prob_loss": 0.1215,
+          "max_drawdown_vs_bankroll": 0.09137696940897488
+        },
+        "shaded": {
+          "mean_profit": 3184445.868989027,
+          "mean_hold_pct": 0.06368891737978054,
+          "p05_profit": 994226.9871106762,
+          "p95_profit": 5473907.543803514,
+          "worst_profit": -2529507.3236890766,
+          "prob_loss": 0.007,
+          "max_drawdown_vs_bankroll": 0.05059014647378153
+        },
+        "avg_favorite_shade_cents": 6.944168277386076
+      }
+    }
+  }
+}

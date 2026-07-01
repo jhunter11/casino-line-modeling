@@ -1,0 +1,3730 @@
+{
+  "schema": "wc-scores-v1",
+  "model_tag": "t168-teamElo-fallback",
+  "score_date": "2026-06-15",
+  "generated_at": "2026-06-16T02:29:10.859716+00:00",
+  "n_games": 60,
+  "gaps": [],
+  "games": [
+    {
+      "event": "KXWCGAME-26JUN15BELEGY",
+      "title": "Belgium vs Egypt Winner?",
+      "kickoff": "2026-06-15",
+      "close_time": "2026-06-29T19:00:00Z",
+      "neutral": true,
+      "team_a": "Belgium",
+      "team_b": "Egypt",
+      "code_a": "BEL",
+      "code_b": "EGY",
+      "elo_a": 1892.2,
+      "elo_b": 1828.3,
+      "model": {
+        "p_a": 0.4580963064880872,
+        "p_draw": 0.2656284784215754,
+        "p_b": 0.27627521509033737
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "BEL",
+          "model_prob": 0.4580963064880872,
+          "market": {
+            "ticker": "KXWCGAME-26JUN15BELEGY-BEL",
+            "yes_bid": 0.0,
+            "yes_ask": 0.01,
+            "no_bid": 0.99,
+            "no_ask": 1.0,
+            "last": 0.01,
+            "ts": "2026-06-15T20:59:00.844043+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2656284784215754,
+          "market": {
+            "ticker": "KXWCGAME-26JUN15BELEGY-TIE",
+            "yes_bid": 0.99,
+            "yes_ask": 1.0,
+            "no_bid": 0.0,
+            "no_ask": 0.01,
+            "last": 0.99,
+            "ts": "2026-06-15T20:59:00.844043+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "EGY",
+          "model_prob": 0.27627521509033737,
+          "market": {
+            "ticker": "KXWCGAME-26JUN15BELEGY-EGY",
+            "yes_bid": 0.0,
+            "yes_ask": 0.01,
+            "no_bid": 0.99,
+            "no_ask": 1.0,
+            "last": 0.01,
+            "ts": "2026-06-15T20:59:00.844043+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN15ESPCPV",
+      "title": "Spain vs Cape Verde Winner?",
+      "kickoff": "2026-06-15",
+      "close_time": "2026-06-29T16:00:00Z",
+      "neutral": true,
+      "team_a": "Spain",
+      "team_b": "Cape Verde",
+      "code_a": "ESP",
+      "code_b": "CPV",
+      "elo_a": 2306.8,
+      "elo_b": 1665.5,
+      "model": {
+        "p_a": 0.9513567928949311,
+        "p_draw": 0.04864270710506894,
+        "p_b": 5.000000000005002e-07
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "ESP",
+          "model_prob": 0.9513567928949311,
+          "market": {
+            "ticker": "KXWCGAME-26JUN15ESPCPV-ESP",
+            "yes_bid": 0.0,
+            "yes_ask": 0.01,
+            "no_bid": 0.99,
+            "no_ask": 1.0,
+            "last": 0.01,
+            "ts": "2026-06-15T17:56:56.147875+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.04864270710506894,
+          "market": {
+            "ticker": "KXWCGAME-26JUN15ESPCPV-TIE",
+            "yes_bid": 0.99,
+            "yes_ask": 1.0,
+            "no_bid": 0.0,
+            "no_ask": 0.01,
+            "last": 0.99,
+            "ts": "2026-06-15T17:56:56.147875+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "CPV",
+          "model_prob": 5.000000000005002e-07,
+          "market": {
+            "ticker": "KXWCGAME-26JUN15ESPCPV-CPV",
+            "yes_bid": 0.0,
+            "yes_ask": 0.01,
+            "no_bid": 0.99,
+            "no_ask": 1.0,
+            "last": 0.01,
+            "ts": "2026-06-15T17:56:56.147875+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN15IRINZL",
+      "title": "IR Iran vs New Zealand Winner?",
+      "kickoff": "2026-06-15",
+      "close_time": "2026-06-30T01:00:00Z",
+      "neutral": true,
+      "team_a": "Iran",
+      "team_b": "New Zealand",
+      "code_a": "IRI",
+      "code_b": "NZL",
+      "elo_a": 1922.2,
+      "elo_b": 1791.6,
+      "model": {
+        "p_a": 0.5535512905231936,
+        "p_draw": 0.25217852432334253,
+        "p_b": 0.194270185153464
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "IRI",
+          "model_prob": 0.5535512905231936,
+          "market": {
+            "ticker": "KXWCGAME-26JUN15IRINZL-IRI",
+            "yes_bid": 0.54,
+            "yes_ask": 0.55,
+            "no_bid": 0.45,
+            "no_ask": 0.46,
+            "last": 0.55,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.25217852432334253,
+          "market": {
+            "ticker": "KXWCGAME-26JUN15IRINZL-TIE",
+            "yes_bid": 0.27,
+            "yes_ask": 0.28,
+            "no_bid": 0.72,
+            "no_ask": 0.73,
+            "last": 0.28,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "NZL",
+          "model_prob": 0.194270185153464,
+          "market": {
+            "ticker": "KXWCGAME-26JUN15IRINZL-NZL",
+            "yes_bid": 0.19,
+            "yes_ask": 0.2,
+            "no_bid": 0.8,
+            "no_ask": 0.81,
+            "last": 0.2,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN15KSAURU",
+      "title": "Saudi Arabia vs Uruguay Winner?",
+      "kickoff": "2026-06-15",
+      "close_time": "2026-06-29T22:00:00Z",
+      "neutral": true,
+      "team_a": "Saudi Arabia",
+      "team_b": "Uruguay",
+      "code_a": "KSA",
+      "code_b": "URU",
+      "elo_a": 1767.7,
+      "elo_b": 2021.7,
+      "model": {
+        "p_a": 0.08379785995411683,
+        "p_draw": 0.20855657561818866,
+        "p_b": 0.7076455644276946
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "KSA",
+          "model_prob": 0.08379785995411683,
+          "market": {
+            "ticker": "KXWCGAME-26JUN15KSAURU-KSA",
+            "yes_bid": 0.03,
+            "yes_ask": 0.04,
+            "no_bid": 0.96,
+            "no_ask": 0.97,
+            "last": 0.03,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.20855657561818866,
+          "market": {
+            "ticker": "KXWCGAME-26JUN15KSAURU-TIE",
+            "yes_bid": 0.83,
+            "yes_ask": 0.84,
+            "no_bid": 0.16,
+            "no_ask": 0.17,
+            "last": 0.84,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "URU",
+          "model_prob": 0.7076455644276946,
+          "market": {
+            "ticker": "KXWCGAME-26JUN15KSAURU-URU",
+            "yes_bid": 0.12,
+            "yes_ask": 0.13,
+            "no_bid": 0.87,
+            "no_ask": 0.88,
+            "last": 0.13,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN16ARGDZA",
+      "title": "Argentina vs Algeria Winner?",
+      "kickoff": "2026-06-16",
+      "close_time": "2026-07-01T01:00:00Z",
+      "neutral": true,
+      "team_a": "Argentina",
+      "team_b": "Algeria",
+      "code_a": "ARG",
+      "code_b": "DZA",
+      "elo_a": 2215.8,
+      "elo_b": 1882.4,
+      "model": {
+        "p_a": 0.785547856665618,
+        "p_draw": 0.17306566486104374,
+        "p_b": 0.041386478473338366
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "ARG",
+          "model_prob": 0.785547856665618,
+          "market": {
+            "ticker": "KXWCGAME-26JUN16ARGDZA-ARG",
+            "yes_bid": 0.69,
+            "yes_ask": 0.7,
+            "no_bid": 0.3,
+            "no_ask": 0.31,
+            "last": 0.7,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.17306566486104374,
+          "market": {
+            "ticker": "KXWCGAME-26JUN16ARGDZA-TIE",
+            "yes_bid": 0.2,
+            "yes_ask": 0.21,
+            "no_bid": 0.79,
+            "no_ask": 0.8,
+            "last": 0.21,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "DZA",
+          "model_prob": 0.041386478473338366,
+          "market": {
+            "ticker": "KXWCGAME-26JUN16ARGDZA-DZA",
+            "yes_bid": 0.1,
+            "yes_ask": 0.11,
+            "no_bid": 0.89,
+            "no_ask": 0.9,
+            "last": 0.11,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN16FRASEN",
+      "title": "France vs Senegal Winner?",
+      "kickoff": "2026-06-16",
+      "close_time": "2026-06-30T19:00:00Z",
+      "neutral": true,
+      "team_a": "France",
+      "team_b": "Senegal",
+      "code_a": "FRA",
+      "code_b": "SEN",
+      "elo_a": 2183.5,
+      "elo_b": 1941.1,
+      "model": {
+        "p_a": 0.6947260404920601,
+        "p_draw": 0.2134466968915204,
+        "p_b": 0.09182726261641955
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "FRA",
+          "model_prob": 0.6947260404920601,
+          "market": {
+            "ticker": "KXWCGAME-26JUN16FRASEN-FRA",
+            "yes_bid": 0.66,
+            "yes_ask": 0.67,
+            "no_bid": 0.33,
+            "no_ask": 0.34,
+            "last": 0.67,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2134466968915204,
+          "market": {
+            "ticker": "KXWCGAME-26JUN16FRASEN-TIE",
+            "yes_bid": 0.21,
+            "yes_ask": 0.22,
+            "no_bid": 0.78,
+            "no_ask": 0.79,
+            "last": 0.22,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "SEN",
+          "model_prob": 0.09182726261641955,
+          "market": {
+            "ticker": "KXWCGAME-26JUN16FRASEN-SEN",
+            "yes_bid": 0.12,
+            "yes_ask": 0.13,
+            "no_bid": 0.87,
+            "no_ask": 0.88,
+            "last": 0.13,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN16IRQNOR",
+      "title": "Iraq vs Norway Winner?",
+      "kickoff": "2026-06-16",
+      "close_time": "2026-06-30T22:00:00Z",
+      "neutral": true,
+      "team_a": "Iraq",
+      "team_b": "Norway",
+      "code_a": "IRQ",
+      "code_b": "NOR",
+      "elo_a": 1780.3,
+      "elo_b": 2084.0,
+      "model": {
+        "p_a": 0.0549461179379192,
+        "p_draw": 0.18671973529877667,
+        "p_b": 0.7583341467633041
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "IRQ",
+          "model_prob": 0.0549461179379192,
+          "market": {
+            "ticker": "KXWCGAME-26JUN16IRQNOR-IRQ",
+            "yes_bid": 0.05,
+            "yes_ask": 0.06,
+            "no_bid": 0.94,
+            "no_ask": 0.95,
+            "last": 0.06,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.18671973529877667,
+          "market": {
+            "ticker": "KXWCGAME-26JUN16IRQNOR-TIE",
+            "yes_bid": 0.12,
+            "yes_ask": 0.13,
+            "no_bid": 0.87,
+            "no_ask": 0.88,
+            "last": 0.13,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "NOR",
+          "model_prob": 0.7583341467633041,
+          "market": {
+            "ticker": "KXWCGAME-26JUN16IRQNOR-NOR",
+            "yes_bid": 0.82,
+            "yes_ask": 0.83,
+            "no_bid": 0.17,
+            "no_ask": 0.18,
+            "last": 0.83,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN17AUTJOR",
+      "title": "Austria vs Jordan Winner?",
+      "kickoff": "2026-06-17",
+      "close_time": "2026-07-01T04:00:00Z",
+      "neutral": true,
+      "team_a": "Austria",
+      "team_b": "Jordan",
+      "code_a": "AUT",
+      "code_b": "JOR",
+      "elo_a": 1844.2,
+      "elo_b": 1927.0,
+      "model": {
+        "p_a": 0.2516647938253593,
+        "p_draw": 0.26269164048907434,
+        "p_b": 0.4856435656855664
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "AUT",
+          "model_prob": 0.2516647938253593,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17AUTJOR-AUT",
+            "yes_bid": 0.72,
+            "yes_ask": 0.73,
+            "no_bid": 0.27,
+            "no_ask": 0.28,
+            "last": 0.73,
+            "ts": "2026-06-15T23:55:18.874403+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.26269164048907434,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17AUTJOR-TIE",
+            "yes_bid": 0.17,
+            "yes_ask": 0.18,
+            "no_bid": 0.82,
+            "no_ask": 0.83,
+            "last": 0.18,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "JOR",
+          "model_prob": 0.4856435656855664,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17AUTJOR-JOR",
+            "yes_bid": 0.1,
+            "yes_ask": 0.11,
+            "no_bid": 0.89,
+            "no_ask": 0.9,
+            "last": 0.11,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN17ENGCRO",
+      "title": "England vs Croatia Winner?",
+      "kickoff": "2026-06-17",
+      "close_time": "2026-07-01T20:00:00Z",
+      "neutral": true,
+      "team_a": "England",
+      "team_b": "Croatia",
+      "code_a": "ENG",
+      "code_b": "CRO",
+      "elo_a": 2203.3,
+      "elo_b": 2026.1,
+      "model": {
+        "p_a": 0.6159356423987734,
+        "p_draw": 0.23812617732521757,
+        "p_b": 0.14593818027600908
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "ENG",
+          "model_prob": 0.6159356423987734,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17ENGCRO-ENG",
+            "yes_bid": 0.57,
+            "yes_ask": 0.58,
+            "no_bid": 0.42,
+            "no_ask": 0.43,
+            "last": 0.58,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.23812617732521757,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17ENGCRO-TIE",
+            "yes_bid": 0.24,
+            "yes_ask": 0.25,
+            "no_bid": 0.75,
+            "no_ask": 0.76,
+            "last": 0.25,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "CRO",
+          "model_prob": 0.14593818027600908,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17ENGCRO-CRO",
+            "yes_bid": 0.18,
+            "yes_ask": 0.19,
+            "no_bid": 0.81,
+            "no_ask": 0.82,
+            "last": 0.19,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN17GHAPAN",
+      "title": "Ghana vs Panama Winner?",
+      "kickoff": "2026-06-17",
+      "close_time": "2026-07-01T23:00:00Z",
+      "neutral": true,
+      "team_a": "Ghana",
+      "team_b": "Panama",
+      "code_a": "GHA",
+      "code_b": "PAN",
+      "elo_a": 1670.6,
+      "elo_b": 1980.6,
+      "model": {
+        "p_a": 0.051798555496750734,
+        "p_draw": 0.18380023028567097,
+        "p_b": 0.7644012142175783
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "GHA",
+          "model_prob": 0.051798555496750734,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17GHAPAN-GHA",
+            "yes_bid": 0.43,
+            "yes_ask": 0.44,
+            "no_bid": 0.56,
+            "no_ask": 0.57,
+            "last": 0.44,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.18380023028567097,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17GHAPAN-TIE",
+            "yes_bid": 0.28,
+            "yes_ask": 0.29,
+            "no_bid": 0.71,
+            "no_ask": 0.72,
+            "last": 0.29,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "PAN",
+          "model_prob": 0.7644012142175783,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17GHAPAN-PAN",
+            "yes_bid": 0.28,
+            "yes_ask": 0.29,
+            "no_bid": 0.71,
+            "no_ask": 0.72,
+            "last": 0.29,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN17PORCOD",
+      "title": "Portugal vs Congo DR Winner?",
+      "kickoff": "2026-06-17",
+      "close_time": "2026-07-01T17:00:00Z",
+      "neutral": true,
+      "team_a": "Portugal",
+      "team_b": "DR Congo",
+      "code_a": "POR",
+      "code_b": "COD",
+      "elo_a": 2082.1,
+      "elo_b": 1827.8,
+      "model": {
+        "p_a": 0.707974370660573,
+        "p_draw": 0.20842873104505638,
+        "p_b": 0.08359689829437064
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "POR",
+          "model_prob": 0.707974370660573,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17PORCOD-POR",
+            "yes_bid": 0.76,
+            "yes_ask": 0.77,
+            "no_bid": 0.23,
+            "no_ask": 0.24,
+            "last": 0.77,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.20842873104505638,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17PORCOD-TIE",
+            "yes_bid": 0.16,
+            "yes_ask": 0.17,
+            "no_bid": 0.83,
+            "no_ask": 0.84,
+            "last": 0.17,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "COD",
+          "model_prob": 0.08359689829437064,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17PORCOD-COD",
+            "yes_bid": 0.08,
+            "yes_ask": 0.09,
+            "no_bid": 0.91,
+            "no_ask": 0.92,
+            "last": 0.09,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN17UZBCOL",
+      "title": "Uzbekistan vs Colombia Winner?",
+      "kickoff": "2026-06-17",
+      "close_time": "2026-07-02T02:00:00Z",
+      "neutral": true,
+      "team_a": "Uzbekistan",
+      "team_b": "Colombia",
+      "code_a": "UZB",
+      "code_b": "COL",
+      "elo_a": 1928.0,
+      "elo_b": 2082.8,
+      "model": {
+        "p_a": 0.1682380696925253,
+        "p_draw": 0.24532626025480822,
+        "p_b": 0.5864356700526665
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "UZB",
+          "model_prob": 0.1682380696925253,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17UZBCOL-UZB",
+            "yes_bid": 0.09,
+            "yes_ask": 0.1,
+            "no_bid": 0.9,
+            "no_ask": 0.91,
+            "last": 0.1,
+            "ts": "2026-06-15T23:57:37.819864+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.24532626025480822,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17UZBCOL-TIE",
+            "yes_bid": 0.19,
+            "yes_ask": 0.2,
+            "no_bid": 0.8,
+            "no_ask": 0.81,
+            "last": 0.2,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "COL",
+          "model_prob": 0.5864356700526665,
+          "market": {
+            "ticker": "KXWCGAME-26JUN17UZBCOL-COL",
+            "yes_bid": 0.7,
+            "yes_ask": 0.71,
+            "no_bid": 0.29,
+            "no_ask": 0.3,
+            "last": 0.71,
+            "ts": "2026-06-15T23:57:37.819864+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN18CANQAT",
+      "title": "Canada vs Qatar Winner?",
+      "kickoff": "2026-06-18",
+      "close_time": "2026-07-02T22:00:00Z",
+      "neutral": false,
+      "team_a": "Canada",
+      "team_b": "Qatar",
+      "code_a": "CAN",
+      "code_b": "QAT",
+      "elo_a": 1921.6,
+      "elo_b": 1608.9,
+      "model": {
+        "p_a": 0.8362617340909935,
+        "p_draw": 0.1434306311508654,
+        "p_b": 0.02030763475814118
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "CAN",
+          "model_prob": 0.8362617340909935,
+          "market": {
+            "ticker": "KXWCGAME-26JUN18CANQAT-CAN",
+            "yes_bid": 0.76,
+            "yes_ask": 0.77,
+            "no_bid": 0.23,
+            "no_ask": 0.24,
+            "last": 0.77,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.1434306311508654,
+          "market": {
+            "ticker": "KXWCGAME-26JUN18CANQAT-TIE",
+            "yes_bid": 0.15,
+            "yes_ask": 0.16,
+            "no_bid": 0.84,
+            "no_ask": 0.85,
+            "last": 0.16,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "QAT",
+          "model_prob": 0.02030763475814118,
+          "market": {
+            "ticker": "KXWCGAME-26JUN18CANQAT-QAT",
+            "yes_bid": 0.08,
+            "yes_ask": 0.09,
+            "no_bid": 0.91,
+            "no_ask": 0.92,
+            "last": 0.09,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN18CZERSA",
+      "title": "Czechia vs South Africa Winner?",
+      "kickoff": "2026-06-18",
+      "close_time": "2026-07-02T16:00:00Z",
+      "neutral": true,
+      "team_a": "Czech Republic",
+      "team_b": "South Africa",
+      "code_a": "CZE",
+      "code_b": "RSA",
+      "elo_a": 1772.0,
+      "elo_b": 1668.0,
+      "model": {
+        "p_a": 0.5162051155125177,
+        "p_draw": 0.2585471785467772,
+        "p_b": 0.2252477059407051
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "CZE",
+          "model_prob": 0.5162051155125177,
+          "market": {
+            "ticker": "KXWCGAME-26JUN18CZERSA-CZE",
+            "yes_bid": 0.54,
+            "yes_ask": 0.55,
+            "no_bid": 0.45,
+            "no_ask": 0.46,
+            "last": 0.54,
+            "ts": "2026-06-15T23:51:44.814307+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2585471785467772,
+          "market": {
+            "ticker": "KXWCGAME-26JUN18CZERSA-TIE",
+            "yes_bid": 0.25,
+            "yes_ask": 0.26,
+            "no_bid": 0.74,
+            "no_ask": 0.75,
+            "last": 0.26,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "RSA",
+          "model_prob": 0.2252477059407051,
+          "market": {
+            "ticker": "KXWCGAME-26JUN18CZERSA-RSA",
+            "yes_bid": 0.2,
+            "yes_ask": 0.21,
+            "no_bid": 0.79,
+            "no_ask": 0.8,
+            "last": 0.21,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN18MEXKOR",
+      "title": "Mexico vs Korea Republic Winner?",
+      "kickoff": "2026-06-18",
+      "close_time": "2026-07-03T01:00:00Z",
+      "neutral": false,
+      "team_a": "Mexico",
+      "team_b": "South Korea",
+      "code_a": "MEX",
+      "code_b": "KOR",
+      "elo_a": 2132.3,
+      "elo_b": 1966.7,
+      "model": {
+        "p_a": 0.70382296760893,
+        "p_draw": 0.21003039156342904,
+        "p_b": 0.08614664082764097
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "MEX",
+          "model_prob": 0.70382296760893,
+          "market": {
+            "ticker": "KXWCGAME-26JUN18MEXKOR-MEX",
+            "yes_bid": 0.48,
+            "yes_ask": 0.49,
+            "no_bid": 0.51,
+            "no_ask": 0.52,
+            "last": 0.49,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.21003039156342904,
+          "market": {
+            "ticker": "KXWCGAME-26JUN18MEXKOR-TIE",
+            "yes_bid": 0.27,
+            "yes_ask": 0.28,
+            "no_bid": 0.72,
+            "no_ask": 0.73,
+            "last": 0.28,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "KOR",
+          "model_prob": 0.08614664082764097,
+          "market": {
+            "ticker": "KXWCGAME-26JUN18MEXKOR-KOR",
+            "yes_bid": 0.23,
+            "yes_ask": 0.24,
+            "no_bid": 0.76,
+            "no_ask": 0.77,
+            "last": 0.24,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN18SUIBIH",
+      "title": "Switzerland vs Bosnia and Herzegovina Winner?",
+      "kickoff": "2026-06-18",
+      "close_time": "2026-07-02T19:00:00Z",
+      "neutral": true,
+      "team_a": "Switzerland",
+      "team_b": "Bosnia and Herzegovina",
+      "code_a": "SUI",
+      "code_b": "BIH",
+      "elo_a": 1912.2,
+      "elo_b": 1707.9,
+      "model": {
+        "p_a": 0.6500306302989662,
+        "p_draw": 0.22847317361026573,
+        "p_b": 0.12149619609076807
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "SUI",
+          "model_prob": 0.6500306302989662,
+          "market": {
+            "ticker": "KXWCGAME-26JUN18SUIBIH-SUI",
+            "yes_bid": 0.62,
+            "yes_ask": 0.63,
+            "no_bid": 0.37,
+            "no_ask": 0.38,
+            "last": 0.63,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.22847317361026573,
+          "market": {
+            "ticker": "KXWCGAME-26JUN18SUIBIH-TIE",
+            "yes_bid": 0.23,
+            "yes_ask": 0.24,
+            "no_bid": 0.76,
+            "no_ask": 0.77,
+            "last": 0.24,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "BIH",
+          "model_prob": 0.12149619609076807,
+          "market": {
+            "ticker": "KXWCGAME-26JUN18SUIBIH-BIH",
+            "yes_bid": 0.15,
+            "yes_ask": 0.16,
+            "no_bid": 0.84,
+            "no_ask": 0.85,
+            "last": 0.16,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN19BRAHTI",
+      "title": "Brazil vs Haiti Winner?",
+      "kickoff": "2026-06-19",
+      "close_time": "2026-07-04T01:00:00Z",
+      "neutral": true,
+      "team_a": "Brazil",
+      "team_b": "Haiti",
+      "code_a": "BRA",
+      "code_b": "HTI",
+      "elo_a": 2035.2,
+      "elo_b": 1764.8,
+      "model": {
+        "p_a": 0.725028257262823,
+        "p_draw": 0.20155977013915732,
+        "p_b": 0.0734119725980196
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "BRA",
+          "model_prob": 0.725028257262823,
+          "market": {
+            "ticker": "KXWCGAME-26JUN19BRAHTI-BRA",
+            "yes_bid": 0.88,
+            "yes_ask": 0.89,
+            "no_bid": 0.11,
+            "no_ask": 0.12,
+            "last": 0.88,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.20155977013915732,
+          "market": {
+            "ticker": "KXWCGAME-26JUN19BRAHTI-TIE",
+            "yes_bid": 0.07,
+            "yes_ask": 0.08,
+            "no_bid": 0.92,
+            "no_ask": 0.93,
+            "last": 0.08,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "HTI",
+          "model_prob": 0.0734119725980196,
+          "market": {
+            "ticker": "KXWCGAME-26JUN19BRAHTI-HTI",
+            "yes_bid": 0.04,
+            "yes_ask": 0.05,
+            "no_bid": 0.95,
+            "no_ask": 0.96,
+            "last": 0.05,
+            "ts": "2026-06-15T23:53:42.237408+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN19SCOMAR",
+      "title": "Scotland vs Morocco Winner?",
+      "kickoff": "2026-06-19",
+      "close_time": "2026-07-03T22:00:00Z",
+      "neutral": true,
+      "team_a": "Scotland",
+      "team_b": "Morocco",
+      "code_a": "SCO",
+      "code_b": "MAR",
+      "elo_a": 1964.3,
+      "elo_b": 2062.7,
+      "model": {
+        "p_a": 0.23228299169627256,
+        "p_draw": 0.2597585271396258,
+        "p_b": 0.5079584811641017
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "SCO",
+          "model_prob": 0.23228299169627256,
+          "market": {
+            "ticker": "KXWCGAME-26JUN19SCOMAR-SCO",
+            "yes_bid": 0.18,
+            "yes_ask": 0.19,
+            "no_bid": 0.81,
+            "no_ask": 0.82,
+            "last": 0.19,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2597585271396258,
+          "market": {
+            "ticker": "KXWCGAME-26JUN19SCOMAR-TIE",
+            "yes_bid": 0.25,
+            "yes_ask": 0.26,
+            "no_bid": 0.74,
+            "no_ask": 0.75,
+            "last": 0.26,
+            "ts": "2026-06-15T23:54:14.226662+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "MAR",
+          "model_prob": 0.5079584811641017,
+          "market": {
+            "ticker": "KXWCGAME-26JUN19SCOMAR-MAR",
+            "yes_bid": 0.56,
+            "yes_ask": 0.57,
+            "no_bid": 0.43,
+            "no_ask": 0.44,
+            "last": 0.57,
+            "ts": "2026-06-15T23:54:46.608710+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN19TURPAR",
+      "title": "Turkiye vs Paraguay Winner?",
+      "kickoff": "2026-06-19",
+      "close_time": "2026-07-04T03:00:00Z",
+      "neutral": true,
+      "team_a": "Turkey",
+      "team_b": "Paraguay",
+      "code_a": "TUR",
+      "code_b": "PAR",
+      "elo_a": 1964.0,
+      "elo_b": 1930.2,
+      "model": {
+        "p_a": 0.4140817210621267,
+        "p_draw": 0.26877012402077205,
+        "p_b": 0.31714815491710124
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "TUR",
+          "model_prob": 0.4140817210621267,
+          "market": {
+            "ticker": "KXWCGAME-26JUN19TURPAR-TUR",
+            "yes_bid": 0.48,
+            "yes_ask": 0.49,
+            "no_bid": 0.51,
+            "no_ask": 0.52,
+            "last": 0.48,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.26877012402077205,
+          "market": {
+            "ticker": "KXWCGAME-26JUN19TURPAR-TIE",
+            "yes_bid": 0.28,
+            "yes_ask": 0.29,
+            "no_bid": 0.71,
+            "no_ask": 0.72,
+            "last": 0.29,
+            "ts": "2026-06-15T23:53:09.957628+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "PAR",
+          "model_prob": 0.31714815491710124,
+          "market": {
+            "ticker": "KXWCGAME-26JUN19TURPAR-PAR",
+            "yes_bid": 0.24,
+            "yes_ask": 0.25,
+            "no_bid": 0.75,
+            "no_ask": 0.76,
+            "last": 0.25,
+            "ts": "2026-06-15T23:44:04.357490+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN19USAAUS",
+      "title": "USA vs Australia Winner?",
+      "kickoff": "2026-06-19",
+      "close_time": "2026-07-03T19:00:00Z",
+      "neutral": false,
+      "team_a": "United States",
+      "team_b": "Australia",
+      "code_a": "USA",
+      "code_b": "AUS",
+      "elo_a": 1997.1,
+      "elo_b": 2114.1,
+      "model": {
+        "p_a": 0.31959888133753567,
+        "p_draw": 0.26889480764463797,
+        "p_b": 0.4115063110178263
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "USA",
+          "model_prob": 0.31959888133753567,
+          "market": {
+            "ticker": "KXWCGAME-26JUN19USAAUS-USA",
+            "yes_bid": 0.61,
+            "yes_ask": 0.62,
+            "no_bid": 0.38,
+            "no_ask": 0.39,
+            "last": 0.62,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.26889480764463797,
+          "market": {
+            "ticker": "KXWCGAME-26JUN19USAAUS-TIE",
+            "yes_bid": 0.21,
+            "yes_ask": 0.22,
+            "no_bid": 0.78,
+            "no_ask": 0.79,
+            "last": 0.22,
+            "ts": "2026-06-15T23:55:18.874403+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "AUS",
+          "model_prob": 0.4115063110178263,
+          "market": {
+            "ticker": "KXWCGAME-26JUN19USAAUS-AUS",
+            "yes_bid": 0.17,
+            "yes_ask": 0.18,
+            "no_bid": 0.82,
+            "no_ask": 0.83,
+            "last": 0.18,
+            "ts": "2026-06-15T23:57:05.855313+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN20ECUCUW",
+      "title": "Ecuador vs Curacao Winner?",
+      "kickoff": "2026-06-20",
+      "close_time": "2026-07-05T00:00:00Z",
+      "neutral": true,
+      "team_a": "Ecuador",
+      "team_b": "Cura\u00e7ao",
+      "code_a": "ECU",
+      "code_b": "CUW",
+      "elo_a": 2093.6,
+      "elo_b": 1654.0,
+      "model": {
+        "p_a": 0.8639162896839685,
+        "p_draw": 0.12465359807290428,
+        "p_b": 0.011430112243127254
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "ECU",
+          "model_prob": 0.8639162896839685,
+          "market": {
+            "ticker": "KXWCGAME-26JUN20ECUCUW-ECU",
+            "yes_bid": 0.88,
+            "yes_ask": 0.89,
+            "no_bid": 0.11,
+            "no_ask": 0.12,
+            "last": 0.89,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.12465359807290428,
+          "market": {
+            "ticker": "KXWCGAME-26JUN20ECUCUW-TIE",
+            "yes_bid": 0.08,
+            "yes_ask": 0.09,
+            "no_bid": 0.91,
+            "no_ask": 0.92,
+            "last": 0.09,
+            "ts": "2026-06-15T23:50:40.821599+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "CUW",
+          "model_prob": 0.011430112243127254,
+          "market": {
+            "ticker": "KXWCGAME-26JUN20ECUCUW-CUW",
+            "yes_bid": 0.03,
+            "yes_ask": 0.04,
+            "no_bid": 0.96,
+            "no_ask": 0.97,
+            "last": 0.04,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN20GERCIV",
+      "title": "Germany vs Ivory Coast Winner?",
+      "kickoff": "2026-06-20",
+      "close_time": "2026-07-04T20:00:00Z",
+      "neutral": true,
+      "team_a": "Germany",
+      "team_b": "Ivory Coast",
+      "code_a": "GER",
+      "code_b": "CIV",
+      "elo_a": 1981.6,
+      "elo_b": 1801.8,
+      "model": {
+        "p_a": 0.6192242370135169,
+        "p_draw": 0.23725892792850564,
+        "p_b": 0.14351683505797747
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "GER",
+          "model_prob": 0.6192242370135169,
+          "market": {
+            "ticker": "KXWCGAME-26JUN20GERCIV-GER",
+            "yes_bid": 0.64,
+            "yes_ask": 0.65,
+            "no_bid": 0.35,
+            "no_ask": 0.36,
+            "last": 0.65,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.23725892792850564,
+          "market": {
+            "ticker": "KXWCGAME-26JUN20GERCIV-TIE",
+            "yes_bid": 0.2,
+            "yes_ask": 0.21,
+            "no_bid": 0.79,
+            "no_ask": 0.8,
+            "last": 0.21,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "CIV",
+          "model_prob": 0.14351683505797747,
+          "market": {
+            "ticker": "KXWCGAME-26JUN20GERCIV-CIV",
+            "yes_bid": 0.15,
+            "yes_ask": 0.16,
+            "no_bid": 0.84,
+            "no_ask": 0.85,
+            "last": 0.16,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN20NEDSWE",
+      "title": "Netherlands vs Sweden Winner?",
+      "kickoff": "2026-06-20",
+      "close_time": "2026-07-04T17:00:00Z",
+      "neutral": true,
+      "team_a": "Netherlands",
+      "team_b": "Sweden",
+      "code_a": "NED",
+      "code_b": "SWE",
+      "elo_a": 2040.0,
+      "elo_b": 1770.6,
+      "model": {
+        "p_a": 0.7240765445266328,
+        "p_draw": 0.20195563201039735,
+        "p_b": 0.07396782346296976
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "NED",
+          "model_prob": 0.7240765445266328,
+          "market": {
+            "ticker": "KXWCGAME-26JUN20NEDSWE-NED",
+            "yes_bid": 0.56,
+            "yes_ask": 0.57,
+            "no_bid": 0.43,
+            "no_ask": 0.44,
+            "last": 0.57,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.20195563201039735,
+          "market": {
+            "ticker": "KXWCGAME-26JUN20NEDSWE-TIE",
+            "yes_bid": 0.23,
+            "yes_ask": 0.24,
+            "no_bid": 0.76,
+            "no_ask": 0.77,
+            "last": 0.24,
+            "ts": "2026-06-15T23:57:05.855313+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "SWE",
+          "model_prob": 0.07396782346296976,
+          "market": {
+            "ticker": "KXWCGAME-26JUN20NEDSWE-SWE",
+            "yes_bid": 0.19,
+            "yes_ask": 0.2,
+            "no_bid": 0.8,
+            "no_ask": 0.81,
+            "last": 0.2,
+            "ts": "2026-06-15T23:57:05.855313+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN21BELIRI",
+      "title": "Belgium vs IR Iran Winner?",
+      "kickoff": "2026-06-21",
+      "close_time": "2026-07-05T19:00:00Z",
+      "neutral": true,
+      "team_a": "Belgium",
+      "team_b": "Iran",
+      "code_a": "BEL",
+      "code_b": "IRI",
+      "elo_a": 1892.2,
+      "elo_b": 1922.2,
+      "model": {
+        "p_a": 0.32235637182489485,
+        "p_draw": 0.26902686588498703,
+        "p_b": 0.4086167622901181
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "BEL",
+          "model_prob": 0.32235637182489485,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21BELIRI-BEL",
+            "yes_bid": 0.69,
+            "yes_ask": 0.7,
+            "no_bid": 0.3,
+            "no_ask": 0.31,
+            "last": 0.7,
+            "ts": "2026-06-15T23:57:05.855313+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.26902686588498703,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21BELIRI-TIE",
+            "yes_bid": 0.19,
+            "yes_ask": 0.2,
+            "no_bid": 0.8,
+            "no_ask": 0.81,
+            "last": 0.2,
+            "ts": "2026-06-15T23:50:40.821599+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "IRI",
+          "model_prob": 0.4086167622901181,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21BELIRI-IRI",
+            "yes_bid": 0.11,
+            "yes_ask": 0.12,
+            "no_bid": 0.88,
+            "no_ask": 0.89,
+            "last": 0.12,
+            "ts": "2026-06-15T23:54:46.608710+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN21ESPKSA",
+      "title": "Spain vs Saudi Arabia Winner?",
+      "kickoff": "2026-06-21",
+      "close_time": "2026-07-05T16:00:00Z",
+      "neutral": true,
+      "team_a": "Spain",
+      "team_b": "Saudi Arabia",
+      "code_a": "ESP",
+      "code_b": "KSA",
+      "elo_a": 2306.8,
+      "elo_b": 1767.7,
+      "model": {
+        "p_a": 0.914836127964501,
+        "p_draw": 0.08441002278817257,
+        "p_b": 0.0007538492473264588
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "ESP",
+          "model_prob": 0.914836127964501,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21ESPKSA-ESP",
+            "yes_bid": 0.89,
+            "yes_ask": 0.9,
+            "no_bid": 0.1,
+            "no_ask": 0.11,
+            "last": 0.89,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.08441002278817257,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21ESPKSA-TIE",
+            "yes_bid": 0.06,
+            "yes_ask": 0.07,
+            "no_bid": 0.93,
+            "no_ask": 0.94,
+            "last": 0.07,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "KSA",
+          "model_prob": 0.0007538492473264588,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21ESPKSA-KSA",
+            "yes_bid": 0.04,
+            "yes_ask": 0.05,
+            "no_bid": 0.95,
+            "no_ask": 0.96,
+            "last": 0.05,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN21NZLEGY",
+      "title": "New Zealand vs Egypt Winner?",
+      "kickoff": "2026-06-21",
+      "close_time": "2026-07-06T01:00:00Z",
+      "neutral": true,
+      "team_a": "New Zealand",
+      "team_b": "Egypt",
+      "code_a": "NZL",
+      "code_b": "EGY",
+      "elo_a": 1791.6,
+      "elo_b": 1828.3,
+      "model": {
+        "p_a": 0.31306287586689624,
+        "p_draw": 0.2685468471032416,
+        "p_b": 0.41839027702986215
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "NZL",
+          "model_prob": 0.31306287586689624,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21NZLEGY-NZL",
+            "yes_bid": 0.17,
+            "yes_ask": 0.18,
+            "no_bid": 0.82,
+            "no_ask": 0.83,
+            "last": 0.18,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2685468471032416,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21NZLEGY-TIE",
+            "yes_bid": 0.24,
+            "yes_ask": 0.25,
+            "no_bid": 0.75,
+            "no_ask": 0.76,
+            "last": 0.25,
+            "ts": "2026-06-15T23:54:14.226662+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "EGY",
+          "model_prob": 0.41839027702986215,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21NZLEGY-EGY",
+            "yes_bid": 0.58,
+            "yes_ask": 0.59,
+            "no_bid": 0.41,
+            "no_ask": 0.42,
+            "last": 0.58,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN21TUNJPN",
+      "title": "Tunisia vs Japan Winner?",
+      "kickoff": "2026-06-21",
+      "close_time": "2026-07-05T04:00:00Z",
+      "neutral": true,
+      "team_a": "Tunisia",
+      "team_b": "Japan",
+      "code_a": "TUN",
+      "code_b": "JPN",
+      "elo_a": 1745.6,
+      "elo_b": 2065.4,
+      "model": {
+        "p_a": 0.04726959389100177,
+        "p_draw": 0.17935025851515618,
+        "p_b": 0.773380147593842
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "TUN",
+          "model_prob": 0.04726959389100177,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21TUNJPN-TUN",
+            "yes_bid": 0.13,
+            "yes_ask": 0.14,
+            "no_bid": 0.86,
+            "no_ask": 0.87,
+            "last": 0.14,
+            "ts": "2026-06-15T23:57:37.819864+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.17935025851515618,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21TUNJPN-TIE",
+            "yes_bid": 0.23,
+            "yes_ask": 0.24,
+            "no_bid": 0.76,
+            "no_ask": 0.77,
+            "last": 0.24,
+            "ts": "2026-06-15T23:57:37.819864+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "JPN",
+          "model_prob": 0.773380147593842,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21TUNJPN-JPN",
+            "yes_bid": 0.64,
+            "yes_ask": 0.65,
+            "no_bid": 0.35,
+            "no_ask": 0.36,
+            "last": 0.65,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN21URUCPV",
+      "title": "Uruguay vs Cape Verde Winner?",
+      "kickoff": "2026-06-21",
+      "close_time": "2026-07-05T22:00:00Z",
+      "neutral": true,
+      "team_a": "Uruguay",
+      "team_b": "Cape Verde",
+      "code_a": "URU",
+      "code_b": "CPV",
+      "elo_a": 2021.7,
+      "elo_b": 1665.5,
+      "model": {
+        "p_a": 0.804761533027496,
+        "p_draw": 0.16251635853287957,
+        "p_b": 0.03272210843962449
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "URU",
+          "model_prob": 0.804761533027496,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21URUCPV-URU",
+            "yes_bid": 0.65,
+            "yes_ask": 0.66,
+            "no_bid": 0.34,
+            "no_ask": 0.35,
+            "last": 0.66,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.16251635853287957,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21URUCPV-TIE",
+            "yes_bid": 0.21,
+            "yes_ask": 0.22,
+            "no_bid": 0.78,
+            "no_ask": 0.79,
+            "last": 0.22,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "CPV",
+          "model_prob": 0.03272210843962449,
+          "market": {
+            "ticker": "KXWCGAME-26JUN21URUCPV-CPV",
+            "yes_bid": 0.13,
+            "yes_ask": 0.14,
+            "no_bid": 0.86,
+            "no_ask": 0.87,
+            "last": 0.14,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN22ARGAUT",
+      "title": "Argentina vs Austria Winner?",
+      "kickoff": "2026-06-22",
+      "close_time": "2026-07-06T17:00:00Z",
+      "neutral": true,
+      "team_a": "Argentina",
+      "team_b": "Austria",
+      "code_a": "ARG",
+      "code_b": "AUT",
+      "elo_a": 2215.8,
+      "elo_b": 1844.2,
+      "model": {
+        "p_a": 0.8169538232756092,
+        "p_draw": 0.15540328968806125,
+        "p_b": 0.02764288703632957
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "ARG",
+          "model_prob": 0.8169538232756092,
+          "market": {
+            "ticker": "KXWCGAME-26JUN22ARGAUT-ARG",
+            "yes_bid": 0.6,
+            "yes_ask": 0.61,
+            "no_bid": 0.39,
+            "no_ask": 0.4,
+            "last": 0.61,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.15540328968806125,
+          "market": {
+            "ticker": "KXWCGAME-26JUN22ARGAUT-TIE",
+            "yes_bid": 0.23,
+            "yes_ask": 0.24,
+            "no_bid": 0.76,
+            "no_ask": 0.77,
+            "last": 0.24,
+            "ts": "2026-06-15T23:57:05.855313+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "AUT",
+          "model_prob": 0.02764288703632957,
+          "market": {
+            "ticker": "KXWCGAME-26JUN22ARGAUT-AUT",
+            "yes_bid": 0.15,
+            "yes_ask": 0.16,
+            "no_bid": 0.84,
+            "no_ask": 0.85,
+            "last": 0.16,
+            "ts": "2026-06-15T23:57:05.855313+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN22FRAIRQ",
+      "title": "France vs Iraq Winner?",
+      "kickoff": "2026-06-22",
+      "close_time": "2026-07-06T21:00:00Z",
+      "neutral": true,
+      "team_a": "France",
+      "team_b": "Iraq",
+      "code_a": "FRA",
+      "code_b": "IRQ",
+      "elo_a": 2183.5,
+      "elo_b": 1780.3,
+      "model": {
+        "p_a": 0.8401141343488967,
+        "p_draw": 0.14093322905781352,
+        "p_b": 0.018952636593289874
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "FRA",
+          "model_prob": 0.8401141343488967,
+          "market": {
+            "ticker": "KXWCGAME-26JUN22FRAIRQ-FRA",
+            "yes_bid": 0.88,
+            "yes_ask": 0.89,
+            "no_bid": 0.11,
+            "no_ask": 0.12,
+            "last": 0.88,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.14093322905781352,
+          "market": {
+            "ticker": "KXWCGAME-26JUN22FRAIRQ-TIE",
+            "yes_bid": 0.09,
+            "yes_ask": 0.1,
+            "no_bid": 0.9,
+            "no_ask": 0.91,
+            "last": 0.1,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "IRQ",
+          "model_prob": 0.018952636593289874,
+          "market": {
+            "ticker": "KXWCGAME-26JUN22FRAIRQ-IRQ",
+            "yes_bid": 0.03,
+            "yes_ask": 0.04,
+            "no_bid": 0.96,
+            "no_ask": 0.97,
+            "last": 0.04,
+            "ts": "2026-06-15T23:57:37.819864+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN22JORDZA",
+      "title": "Jordan vs Algeria Winner?",
+      "kickoff": "2026-06-22",
+      "close_time": "2026-07-07T03:00:00Z",
+      "neutral": true,
+      "team_a": "Jordan",
+      "team_b": "Algeria",
+      "code_a": "JOR",
+      "code_b": "DZA",
+      "elo_a": 1927.0,
+      "elo_b": 1882.4,
+      "model": {
+        "p_a": 0.42998826594220124,
+        "p_draw": 0.26785473727997033,
+        "p_b": 0.3021569967778284
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "JOR",
+          "model_prob": 0.42998826594220124,
+          "market": {
+            "ticker": "KXWCGAME-26JUN22JORDZA-JOR",
+            "yes_bid": 0.13,
+            "yes_ask": 0.14,
+            "no_bid": 0.86,
+            "no_ask": 0.87,
+            "last": 0.14,
+            "ts": "2026-06-15T23:53:42.237408+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.26785473727997033,
+          "market": {
+            "ticker": "KXWCGAME-26JUN22JORDZA-TIE",
+            "yes_bid": 0.21,
+            "yes_ask": 0.22,
+            "no_bid": 0.78,
+            "no_ask": 0.79,
+            "last": 0.22,
+            "ts": "2026-06-15T23:34:58.531234+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "DZA",
+          "model_prob": 0.3021569967778284,
+          "market": {
+            "ticker": "KXWCGAME-26JUN22JORDZA-DZA",
+            "yes_bid": 0.64,
+            "yes_ask": 0.65,
+            "no_bid": 0.35,
+            "no_ask": 0.36,
+            "last": 0.65,
+            "ts": "2026-06-15T23:44:36.182830+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN22NORSEN",
+      "title": "Norway vs Senegal Winner?",
+      "kickoff": "2026-06-22",
+      "close_time": "2026-07-07T00:00:00Z",
+      "neutral": true,
+      "team_a": "Norway",
+      "team_b": "Senegal",
+      "code_a": "NOR",
+      "code_b": "SEN",
+      "elo_a": 2084.0,
+      "elo_b": 1941.1,
+      "model": {
+        "p_a": 0.5703721719505277,
+        "p_draw": 0.2488235014010641,
+        "p_b": 0.18080432664840823
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "NOR",
+          "model_prob": 0.5703721719505277,
+          "market": {
+            "ticker": "KXWCGAME-26JUN22NORSEN-NOR",
+            "yes_bid": 0.45,
+            "yes_ask": 0.46,
+            "no_bid": 0.54,
+            "no_ask": 0.55,
+            "last": 0.46,
+            "ts": "2026-06-15T23:57:37.819864+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2488235014010641,
+          "market": {
+            "ticker": "KXWCGAME-26JUN22NORSEN-TIE",
+            "yes_bid": 0.26,
+            "yes_ask": 0.27,
+            "no_bid": 0.73,
+            "no_ask": 0.74,
+            "last": 0.27,
+            "ts": "2026-06-15T23:28:24.404668+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "SEN",
+          "model_prob": 0.18080432664840823,
+          "market": {
+            "ticker": "KXWCGAME-26JUN22NORSEN-SEN",
+            "yes_bid": 0.28,
+            "yes_ask": 0.29,
+            "no_bid": 0.71,
+            "no_ask": 0.72,
+            "last": 0.28,
+            "ts": "2026-06-15T23:47:39.869030+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN23COLCOD",
+      "title": "Colombia vs Congo DR Winner?",
+      "kickoff": "2026-06-23",
+      "close_time": "2026-07-08T02:00:00Z",
+      "neutral": true,
+      "team_a": "Colombia",
+      "team_b": "DR Congo",
+      "code_a": "COL",
+      "code_b": "COD",
+      "elo_a": 2082.8,
+      "elo_b": 1827.8,
+      "model": {
+        "p_a": 0.7087326413522176,
+        "p_draw": 0.20813325373984176,
+        "p_b": 0.08313410490794068
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "COL",
+          "model_prob": 0.7087326413522176,
+          "market": {
+            "ticker": "KXWCGAME-26JUN23COLCOD-COL",
+            "yes_bid": 0.67,
+            "yes_ask": 0.68,
+            "no_bid": 0.32,
+            "no_ask": 0.33,
+            "last": 0.68,
+            "ts": "2026-06-15T23:56:54.977832+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.20813325373984176,
+          "market": {
+            "ticker": "KXWCGAME-26JUN23COLCOD-TIE",
+            "yes_bid": 0.21,
+            "yes_ask": 0.22,
+            "no_bid": 0.78,
+            "no_ask": 0.79,
+            "last": 0.22,
+            "ts": "2026-06-15T23:53:09.957628+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "COD",
+          "model_prob": 0.08313410490794068,
+          "market": {
+            "ticker": "KXWCGAME-26JUN23COLCOD-COD",
+            "yes_bid": 0.11,
+            "yes_ask": 0.12,
+            "no_bid": 0.88,
+            "no_ask": 0.89,
+            "last": 0.12,
+            "ts": "2026-06-15T23:45:39.874191+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN23ENGGHA",
+      "title": "England vs Ghana Winner?",
+      "kickoff": "2026-06-23",
+      "close_time": "2026-07-07T20:00:00Z",
+      "neutral": true,
+      "team_a": "England",
+      "team_b": "Ghana",
+      "code_a": "ENG",
+      "code_b": "GHA",
+      "elo_a": 2203.3,
+      "elo_b": 1670.6,
+      "model": {
+        "p_a": 0.9121070718122284,
+        "p_draw": 0.08677079926147165,
+        "p_b": 0.0011221289263000647
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "ENG",
+          "model_prob": 0.9121070718122284,
+          "market": {
+            "ticker": "KXWCGAME-26JUN23ENGGHA-ENG",
+            "yes_bid": 0.75,
+            "yes_ask": 0.76,
+            "no_bid": 0.24,
+            "no_ask": 0.25,
+            "last": 0.76,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.08677079926147165,
+          "market": {
+            "ticker": "KXWCGAME-26JUN23ENGGHA-TIE",
+            "yes_bid": 0.16,
+            "yes_ask": 0.17,
+            "no_bid": 0.83,
+            "no_ask": 0.84,
+            "last": 0.16,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "GHA",
+          "model_prob": 0.0011221289263000647,
+          "market": {
+            "ticker": "KXWCGAME-26JUN23ENGGHA-GHA",
+            "yes_bid": 0.09,
+            "yes_ask": 0.1,
+            "no_bid": 0.9,
+            "no_ask": 0.91,
+            "last": 0.1,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN23PANCRO",
+      "title": "Panama vs Croatia Winner?",
+      "kickoff": "2026-06-23",
+      "close_time": "2026-07-07T23:00:00Z",
+      "neutral": true,
+      "team_a": "Panama",
+      "team_b": "Croatia",
+      "code_a": "PAN",
+      "code_b": "CRO",
+      "elo_a": 1980.6,
+      "elo_b": 2026.1,
+      "model": {
+        "p_a": 0.3010975280182161,
+        "p_draw": 0.2677799350778161,
+        "p_b": 0.43112253690396773
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "PAN",
+          "model_prob": 0.3010975280182161,
+          "market": {
+            "ticker": "KXWCGAME-26JUN23PANCRO-PAN",
+            "yes_bid": 0.14,
+            "yes_ask": 0.15,
+            "no_bid": 0.85,
+            "no_ask": 0.86,
+            "last": 0.15,
+            "ts": "2026-06-15T23:53:09.957628+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2677799350778161,
+          "market": {
+            "ticker": "KXWCGAME-26JUN23PANCRO-TIE",
+            "yes_bid": 0.23,
+            "yes_ask": 0.24,
+            "no_bid": 0.76,
+            "no_ask": 0.77,
+            "last": 0.24,
+            "ts": "2026-06-15T23:12:28.006817+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "CRO",
+          "model_prob": 0.43112253690396773,
+          "market": {
+            "ticker": "KXWCGAME-26JUN23PANCRO-CRO",
+            "yes_bid": 0.62,
+            "yes_ask": 0.63,
+            "no_bid": 0.37,
+            "no_ask": 0.38,
+            "last": 0.63,
+            "ts": "2026-06-15T23:54:46.608710+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN23PORUZB",
+      "title": "Portugal vs Uzbekistan Winner?",
+      "kickoff": "2026-06-23",
+      "close_time": "2026-07-07T17:00:00Z",
+      "neutral": true,
+      "team_a": "Portugal",
+      "team_b": "Uzbekistan",
+      "code_a": "POR",
+      "code_b": "UZB",
+      "elo_a": 2082.1,
+      "elo_b": 1928.0,
+      "model": {
+        "p_a": 0.5855027701761645,
+        "p_draw": 0.24553736026452957,
+        "p_b": 0.16895986955930592
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "POR",
+          "model_prob": 0.5855027701761645,
+          "market": {
+            "ticker": "KXWCGAME-26JUN23PORUZB-POR",
+            "yes_bid": 0.79,
+            "yes_ask": 0.8,
+            "no_bid": 0.2,
+            "no_ask": 0.21,
+            "last": 0.8,
+            "ts": "2026-06-15T23:54:14.226662+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.24553736026452957,
+          "market": {
+            "ticker": "KXWCGAME-26JUN23PORUZB-TIE",
+            "yes_bid": 0.13,
+            "yes_ask": 0.14,
+            "no_bid": 0.86,
+            "no_ask": 0.87,
+            "last": 0.14,
+            "ts": "2026-06-15T23:54:14.226662+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "UZB",
+          "model_prob": 0.16895986955930592,
+          "market": {
+            "ticker": "KXWCGAME-26JUN23PORUZB-UZB",
+            "yes_bid": 0.07,
+            "yes_ask": 0.08,
+            "no_bid": 0.92,
+            "no_ask": 0.93,
+            "last": 0.08,
+            "ts": "2026-06-15T23:54:14.226662+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN24BIHQAT",
+      "title": "Bosnia and Herzegovina vs Qatar Winner?",
+      "kickoff": "2026-06-24",
+      "close_time": "2026-07-08T19:00:00Z",
+      "neutral": true,
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Qatar",
+      "code_a": "BIH",
+      "code_b": "QAT",
+      "elo_a": 1707.9,
+      "elo_b": 1608.9,
+      "model": {
+        "p_a": 0.5088596764414152,
+        "p_draw": 0.25962952157368124,
+        "p_b": 0.2315108019849036
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "BIH",
+          "model_prob": 0.5088596764414152,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24BIHQAT-BIH",
+            "yes_bid": 0.61,
+            "yes_ask": 0.62,
+            "no_bid": 0.38,
+            "no_ask": 0.39,
+            "last": 0.62,
+            "ts": "2026-06-15T23:21:21.027930+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.25962952157368124,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24BIHQAT-TIE",
+            "yes_bid": 0.22,
+            "yes_ask": 0.23,
+            "no_bid": 0.77,
+            "no_ask": 0.78,
+            "last": 0.23,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "QAT",
+          "model_prob": 0.2315108019849036,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24BIHQAT-QAT",
+            "yes_bid": 0.15,
+            "yes_ask": 0.16,
+            "no_bid": 0.84,
+            "no_ask": 0.85,
+            "last": 0.16,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN24CZEMEX",
+      "title": "Czechia vs Mexico Winner?",
+      "kickoff": "2026-06-24",
+      "close_time": "2026-07-09T01:00:00Z",
+      "neutral": false,
+      "team_a": "Czech Republic",
+      "team_b": "Mexico",
+      "code_a": "CZE",
+      "code_b": "MEX",
+      "elo_a": 1772.0,
+      "elo_b": 2132.3,
+      "model": {
+        "p_a": 0.01046953369437912,
+        "p_draw": 0.12217748058321122,
+        "p_b": 0.8673529857224097
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "CZE",
+          "model_prob": 0.01046953369437912,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24CZEMEX-CZE",
+            "yes_bid": 0.19,
+            "yes_ask": 0.2,
+            "no_bid": 0.8,
+            "no_ask": 0.81,
+            "last": 0.2,
+            "ts": "2026-06-15T23:51:12.753867+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.12217748058321122,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24CZEMEX-TIE",
+            "yes_bid": 0.25,
+            "yes_ask": 0.26,
+            "no_bid": 0.74,
+            "no_ask": 0.75,
+            "last": 0.26,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "MEX",
+          "model_prob": 0.8673529857224097,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24CZEMEX-MEX",
+            "yes_bid": 0.54,
+            "yes_ask": 0.55,
+            "no_bid": 0.45,
+            "no_ask": 0.46,
+            "last": 0.55,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN24MARHTI",
+      "title": "Morocco vs Haiti Winner?",
+      "kickoff": "2026-06-24",
+      "close_time": "2026-07-08T22:00:00Z",
+      "neutral": true,
+      "team_a": "Morocco",
+      "team_b": "Haiti",
+      "code_a": "MAR",
+      "code_b": "HTI",
+      "elo_a": 2062.7,
+      "elo_b": 1764.8,
+      "model": {
+        "p_a": 0.7527356712082068,
+        "p_draw": 0.18935275475277735,
+        "p_b": 0.05791157403901581
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "MAR",
+          "model_prob": 0.7527356712082068,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24MARHTI-MAR",
+            "yes_bid": 0.76,
+            "yes_ask": 0.77,
+            "no_bid": 0.23,
+            "no_ask": 0.24,
+            "last": 0.76,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.18935275475277735,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24MARHTI-TIE",
+            "yes_bid": 0.16,
+            "yes_ask": 0.17,
+            "no_bid": 0.83,
+            "no_ask": 0.84,
+            "last": 0.17,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "HTI",
+          "model_prob": 0.05791157403901581,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24MARHTI-HTI",
+            "yes_bid": 0.08,
+            "yes_ask": 0.09,
+            "no_bid": 0.91,
+            "no_ask": 0.92,
+            "last": 0.09,
+            "ts": "2026-06-15T23:56:54.977832+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN24RSAKOR",
+      "title": "South Africa vs Korea Republic Winner?",
+      "kickoff": "2026-06-24",
+      "close_time": "2026-07-09T01:00:00Z",
+      "neutral": true,
+      "team_a": "South Africa",
+      "team_b": "South Korea",
+      "code_a": "RSA",
+      "code_b": "KOR",
+      "elo_a": 1668.0,
+      "elo_b": 1966.7,
+      "model": {
+        "p_a": 0.05743575961760981,
+        "p_draw": 0.18893758404340352,
+        "p_b": 0.7536266563389866
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "RSA",
+          "model_prob": 0.05743575961760981,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24RSAKOR-RSA",
+            "yes_bid": 0.15,
+            "yes_ask": 0.16,
+            "no_bid": 0.84,
+            "no_ask": 0.85,
+            "last": 0.16,
+            "ts": "2026-06-15T23:57:05.855313+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.18893758404340352,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24RSAKOR-TIE",
+            "yes_bid": 0.21,
+            "yes_ask": 0.22,
+            "no_bid": 0.78,
+            "no_ask": 0.79,
+            "last": 0.22,
+            "ts": "2026-06-15T23:57:05.855313+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "KOR",
+          "model_prob": 0.7536266563389866,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24RSAKOR-KOR",
+            "yes_bid": 0.61,
+            "yes_ask": 0.62,
+            "no_bid": 0.38,
+            "no_ask": 0.39,
+            "last": 0.61,
+            "ts": "2026-06-15T23:50:40.821599+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN24SCOBRA",
+      "title": "Scotland vs Brazil Winner?",
+      "kickoff": "2026-06-24",
+      "close_time": "2026-07-08T22:00:00Z",
+      "neutral": true,
+      "team_a": "Scotland",
+      "team_b": "Brazil",
+      "code_a": "SCO",
+      "code_b": "BRA",
+      "elo_a": 1964.3,
+      "elo_b": 2035.2,
+      "model": {
+        "p_a": 0.2671339323496084,
+        "p_draw": 0.26463522687571284,
+        "p_b": 0.46823084077467886
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "SCO",
+          "model_prob": 0.2671339323496084,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24SCOBRA-SCO",
+            "yes_bid": 0.13,
+            "yes_ask": 0.14,
+            "no_bid": 0.86,
+            "no_ask": 0.87,
+            "last": 0.14,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.26463522687571284,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24SCOBRA-TIE",
+            "yes_bid": 0.17,
+            "yes_ask": 0.18,
+            "no_bid": 0.82,
+            "no_ask": 0.83,
+            "last": 0.18,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "BRA",
+          "model_prob": 0.46823084077467886,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24SCOBRA-BRA",
+            "yes_bid": 0.68,
+            "yes_ask": 0.69,
+            "no_bid": 0.31,
+            "no_ask": 0.32,
+            "last": 0.68,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN24SUICAN",
+      "title": "Switzerland vs Canada Winner?",
+      "kickoff": "2026-06-24",
+      "close_time": "2026-07-08T19:00:00Z",
+      "neutral": false,
+      "team_a": "Switzerland",
+      "team_b": "Canada",
+      "code_a": "SUI",
+      "code_b": "CAN",
+      "elo_a": 1912.2,
+      "elo_b": 1921.6,
+      "model": {
+        "p_a": 0.23713561981958356,
+        "p_draw": 0.2605473962996884,
+        "p_b": 0.502316983880728
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "SUI",
+          "model_prob": 0.23713561981958356,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24SUICAN-SUI",
+            "yes_bid": 0.45,
+            "yes_ask": 0.46,
+            "no_bid": 0.54,
+            "no_ask": 0.55,
+            "last": 0.45,
+            "ts": "2026-06-15T23:41:24.720445+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2605473962996884,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24SUICAN-TIE",
+            "yes_bid": 0.27,
+            "yes_ask": 0.28,
+            "no_bid": 0.72,
+            "no_ask": 0.73,
+            "last": 0.28,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "CAN",
+          "model_prob": 0.502316983880728,
+          "market": {
+            "ticker": "KXWCGAME-26JUN24SUICAN-CAN",
+            "yes_bid": 0.27,
+            "yes_ask": 0.28,
+            "no_bid": 0.72,
+            "no_ask": 0.73,
+            "last": 0.28,
+            "ts": "2026-06-15T23:49:36.867184+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN25CUWCIV",
+      "title": "Curacao vs Ivory Coast Winner?",
+      "kickoff": "2026-06-25",
+      "close_time": "2026-07-09T20:00:00Z",
+      "neutral": true,
+      "team_a": "Cura\u00e7ao",
+      "team_b": "Ivory Coast",
+      "code_a": "CUW",
+      "code_b": "CIV",
+      "elo_a": 1654.0,
+      "elo_b": 1801.8,
+      "model": {
+        "p_a": 0.17560229849496994,
+        "p_draw": 0.24742073841096132,
+        "p_b": 0.5769769630940688
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "CUW",
+          "model_prob": 0.17560229849496994,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25CUWCIV-CUW",
+            "yes_bid": 0.05,
+            "yes_ask": 0.06,
+            "no_bid": 0.94,
+            "no_ask": 0.95,
+            "last": 0.06,
+            "ts": "2026-06-15T23:53:09.957628+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.24742073841096132,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25CUWCIV-TIE",
+            "yes_bid": 0.1,
+            "yes_ask": 0.11,
+            "no_bid": 0.89,
+            "no_ask": 0.9,
+            "last": 0.11,
+            "ts": "2026-06-15T23:43:32.451179+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "CIV",
+          "model_prob": 0.5769769630940688,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25CUWCIV-CIV",
+            "yes_bid": 0.84,
+            "yes_ask": 0.85,
+            "no_bid": 0.15,
+            "no_ask": 0.16,
+            "last": 0.85,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN25ECUGER",
+      "title": "Ecuador vs Germany Winner?",
+      "kickoff": "2026-06-25",
+      "close_time": "2026-07-09T20:00:00Z",
+      "neutral": true,
+      "team_a": "Ecuador",
+      "team_b": "Germany",
+      "code_a": "ECU",
+      "code_b": "GER",
+      "elo_a": 2093.6,
+      "elo_b": 1981.6,
+      "model": {
+        "p_a": 0.527481761979467,
+        "p_draw": 0.2567778580098756,
+        "p_b": 0.2157403800106576
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "ECU",
+          "model_prob": 0.527481761979467,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25ECUGER-ECU",
+            "yes_bid": 0.18,
+            "yes_ask": 0.19,
+            "no_bid": 0.81,
+            "no_ask": 0.82,
+            "last": 0.18,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2567778580098756,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25ECUGER-TIE",
+            "yes_bid": 0.23,
+            "yes_ask": 0.24,
+            "no_bid": 0.76,
+            "no_ask": 0.77,
+            "last": 0.24,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "GER",
+          "model_prob": 0.2157403800106576,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25ECUGER-GER",
+            "yes_bid": 0.57,
+            "yes_ask": 0.58,
+            "no_bid": 0.42,
+            "no_ask": 0.43,
+            "last": 0.57,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN25JPNSWE",
+      "title": "Japan vs Sweden Winner?",
+      "kickoff": "2026-06-25",
+      "close_time": "2026-07-09T23:00:00Z",
+      "neutral": true,
+      "team_a": "Japan",
+      "team_b": "Sweden",
+      "code_a": "JPN",
+      "code_b": "SWE",
+      "elo_a": 2065.4,
+      "elo_b": 1770.6,
+      "model": {
+        "p_a": 0.7497939872354629,
+        "p_draw": 0.19071318891800598,
+        "p_b": 0.059492823846531255
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "JPN",
+          "model_prob": 0.7497939872354629,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25JPNSWE-JPN",
+            "yes_bid": 0.45,
+            "yes_ask": 0.46,
+            "no_bid": 0.54,
+            "no_ask": 0.55,
+            "last": 0.46,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.19071318891800598,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25JPNSWE-TIE",
+            "yes_bid": 0.27,
+            "yes_ask": 0.28,
+            "no_bid": 0.72,
+            "no_ask": 0.73,
+            "last": 0.28,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "SWE",
+          "model_prob": 0.059492823846531255,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25JPNSWE-SWE",
+            "yes_bid": 0.27,
+            "yes_ask": 0.28,
+            "no_bid": 0.72,
+            "no_ask": 0.73,
+            "last": 0.28,
+            "ts": "2026-06-15T23:41:56.766745+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN25PARAUS",
+      "title": "Paraguay vs Australia Winner?",
+      "kickoff": "2026-06-25",
+      "close_time": "2026-07-10T02:00:00Z",
+      "neutral": true,
+      "team_a": "Paraguay",
+      "team_b": "Australia",
+      "code_a": "PAR",
+      "code_b": "AUS",
+      "elo_a": 1930.2,
+      "elo_b": 2114.1,
+      "model": {
+        "p_a": 0.13959773245573875,
+        "p_draw": 0.235816375372216,
+        "p_b": 0.6245858921720452
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "PAR",
+          "model_prob": 0.13959773245573875,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25PARAUS-PAR",
+            "yes_bid": 0.44,
+            "yes_ask": 0.45,
+            "no_bid": 0.55,
+            "no_ask": 0.56,
+            "last": 0.44,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.235816375372216,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25PARAUS-TIE",
+            "yes_bid": 0.28,
+            "yes_ask": 0.29,
+            "no_bid": 0.71,
+            "no_ask": 0.72,
+            "last": 0.29,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "AUS",
+          "model_prob": 0.6245858921720452,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25PARAUS-AUS",
+            "yes_bid": 0.28,
+            "yes_ask": 0.29,
+            "no_bid": 0.71,
+            "no_ask": 0.72,
+            "last": 0.29,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN25TUNNED",
+      "title": "Tunisia vs Netherlands Winner?",
+      "kickoff": "2026-06-25",
+      "close_time": "2026-07-09T23:00:00Z",
+      "neutral": true,
+      "team_a": "Tunisia",
+      "team_b": "Netherlands",
+      "code_a": "TUN",
+      "code_b": "NED",
+      "elo_a": 1745.6,
+      "elo_b": 2040.0,
+      "model": {
+        "p_a": 0.05969943937516896,
+        "p_draw": 0.19088880315241943,
+        "p_b": 0.7494117574724116
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "TUN",
+          "model_prob": 0.05969943937516896,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25TUNNED-TUN",
+            "yes_bid": 0.09,
+            "yes_ask": 0.1,
+            "no_bid": 0.9,
+            "no_ask": 0.91,
+            "last": 0.1,
+            "ts": "2026-06-15T23:57:37.819864+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.19088880315241943,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25TUNNED-TIE",
+            "yes_bid": 0.16,
+            "yes_ask": 0.17,
+            "no_bid": 0.83,
+            "no_ask": 0.84,
+            "last": 0.17,
+            "ts": "2026-06-15T23:43:00.591702+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "NED",
+          "model_prob": 0.7494117574724116,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25TUNNED-NED",
+            "yes_bid": 0.74,
+            "yes_ask": 0.75,
+            "no_bid": 0.25,
+            "no_ask": 0.26,
+            "last": 0.75,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN25TURUSA",
+      "title": "Turkiye vs USA Winner?",
+      "kickoff": "2026-06-25",
+      "close_time": "2026-07-10T02:00:00Z",
+      "neutral": false,
+      "team_a": "Turkey",
+      "team_b": "United States",
+      "code_a": "TUR",
+      "code_b": "USA",
+      "elo_a": 1964.0,
+      "elo_b": 1997.1,
+      "model": {
+        "p_a": 0.2085579322469643,
+        "p_draw": 0.2553356118127795,
+        "p_b": 0.5361064559402563
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "TUR",
+          "model_prob": 0.2085579322469643,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25TURUSA-TUR",
+            "yes_bid": 0.34,
+            "yes_ask": 0.35,
+            "no_bid": 0.65,
+            "no_ask": 0.66,
+            "last": 0.35,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2553356118127795,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25TURUSA-TIE",
+            "yes_bid": 0.24,
+            "yes_ask": 0.25,
+            "no_bid": 0.75,
+            "no_ask": 0.76,
+            "last": 0.25,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "USA",
+          "model_prob": 0.5361064559402563,
+          "market": {
+            "ticker": "KXWCGAME-26JUN25TURUSA-USA",
+            "yes_bid": 0.42,
+            "yes_ask": 0.43,
+            "no_bid": 0.57,
+            "no_ask": 0.58,
+            "last": 0.43,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN26CPVKSA",
+      "title": "Cape Verde vs Saudi Arabia Winner?",
+      "kickoff": "2026-06-26",
+      "close_time": "2026-07-11T00:00:00Z",
+      "neutral": true,
+      "team_a": "Cape Verde",
+      "team_b": "Saudi Arabia",
+      "code_a": "CPV",
+      "code_b": "KSA",
+      "elo_a": 1665.5,
+      "elo_b": 1767.7,
+      "model": {
+        "p_a": 0.22757965268665115,
+        "p_draw": 0.25895772291717156,
+        "p_b": 0.5134626243961774
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "CPV",
+          "model_prob": 0.22757965268665115,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26CPVKSA-CPV",
+            "yes_bid": 0.35,
+            "yes_ask": 0.36,
+            "no_bid": 0.64,
+            "no_ask": 0.65,
+            "last": 0.36,
+            "ts": "2026-06-15T23:44:04.357490+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.25895772291717156,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26CPVKSA-TIE",
+            "yes_bid": 0.25,
+            "yes_ask": 0.26,
+            "no_bid": 0.74,
+            "no_ask": 0.75,
+            "last": 0.26,
+            "ts": "2026-06-15T23:54:14.226662+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "KSA",
+          "model_prob": 0.5134626243961774,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26CPVKSA-KSA",
+            "yes_bid": 0.39,
+            "yes_ask": 0.4,
+            "no_bid": 0.6,
+            "no_ask": 0.61,
+            "last": 0.4,
+            "ts": "2026-06-15T23:56:22.969666+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN26EGYIRI",
+      "title": "Egypt vs IR Iran Winner?",
+      "kickoff": "2026-06-26",
+      "close_time": "2026-07-11T03:00:00Z",
+      "neutral": true,
+      "team_a": "Egypt",
+      "team_b": "Iran",
+      "code_a": "EGY",
+      "code_b": "IRI",
+      "elo_a": 1828.3,
+      "elo_b": 1922.2,
+      "model": {
+        "p_a": 0.23770993825006642,
+        "p_draw": 0.2606382942900828,
+        "p_b": 0.5016517674598509
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "EGY",
+          "model_prob": 0.23770993825006642,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26EGYIRI-EGY",
+            "yes_bid": 0.43,
+            "yes_ask": 0.44,
+            "no_bid": 0.56,
+            "no_ask": 0.57,
+            "last": 0.43,
+            "ts": "2026-06-15T23:51:44.814307+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2606382942900828,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26EGYIRI-TIE",
+            "yes_bid": 0.29,
+            "yes_ask": 0.3,
+            "no_bid": 0.7,
+            "no_ask": 0.71,
+            "last": 0.29,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "IRI",
+          "model_prob": 0.5016517674598509,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26EGYIRI-IRI",
+            "yes_bid": 0.26,
+            "yes_ask": 0.27,
+            "no_bid": 0.73,
+            "no_ask": 0.74,
+            "last": 0.27,
+            "ts": "2026-06-15T23:55:18.874403+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN26NORFRA",
+      "title": "Norway vs France Winner?",
+      "kickoff": "2026-06-26",
+      "close_time": "2026-07-10T19:00:00Z",
+      "neutral": true,
+      "team_a": "Norway",
+      "team_b": "France",
+      "code_a": "NOR",
+      "code_b": "FRA",
+      "elo_a": 2084.0,
+      "elo_b": 2183.5,
+      "model": {
+        "p_a": 0.23083389201730803,
+        "p_draw": 0.2595156404908928,
+        "p_b": 0.5096504674917992
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "NOR",
+          "model_prob": 0.23083389201730803,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26NORFRA-NOR",
+            "yes_bid": 0.21,
+            "yes_ask": 0.22,
+            "no_bid": 0.78,
+            "no_ask": 0.79,
+            "last": 0.22,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2595156404908928,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26NORFRA-TIE",
+            "yes_bid": 0.25,
+            "yes_ask": 0.26,
+            "no_bid": 0.74,
+            "no_ask": 0.75,
+            "last": 0.26,
+            "ts": "2026-06-15T23:30:00.864361+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "FRA",
+          "model_prob": 0.5096504674917992,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26NORFRA-FRA",
+            "yes_bid": 0.53,
+            "yes_ask": 0.54,
+            "no_bid": 0.46,
+            "no_ask": 0.47,
+            "last": 0.54,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN26NZLBEL",
+      "title": "New Zealand vs Belgium Winner?",
+      "kickoff": "2026-06-26",
+      "close_time": "2026-07-11T03:00:00Z",
+      "neutral": true,
+      "team_a": "New Zealand",
+      "team_b": "Belgium",
+      "code_a": "NZL",
+      "code_b": "BEL",
+      "elo_a": 1791.6,
+      "elo_b": 1892.2,
+      "model": {
+        "p_a": 0.22948076011878857,
+        "p_draw": 0.2592857611155152,
+        "p_b": 0.5112334787656962
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "NZL",
+          "model_prob": 0.22948076011878857,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26NZLBEL-NZL",
+            "yes_bid": 0.08,
+            "yes_ask": 0.09,
+            "no_bid": 0.91,
+            "no_ask": 0.92,
+            "last": 0.08,
+            "ts": "2026-06-15T23:57:37.819864+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2592857611155152,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26NZLBEL-TIE",
+            "yes_bid": 0.14,
+            "yes_ask": 0.15,
+            "no_bid": 0.85,
+            "no_ask": 0.86,
+            "last": 0.15,
+            "ts": "2026-06-15T23:55:18.874403+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "BEL",
+          "model_prob": 0.5112334787656962,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26NZLBEL-BEL",
+            "yes_bid": 0.77,
+            "yes_ask": 0.78,
+            "no_bid": 0.22,
+            "no_ask": 0.23,
+            "last": 0.78,
+            "ts": "2026-06-15T23:55:18.874403+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN26SENIRQ",
+      "title": "Senegal vs Iraq Winner?",
+      "kickoff": "2026-06-26",
+      "close_time": "2026-07-10T19:00:00Z",
+      "neutral": true,
+      "team_a": "Senegal",
+      "team_b": "Iraq",
+      "code_a": "SEN",
+      "code_b": "IRQ",
+      "elo_a": 1941.1,
+      "elo_b": 1780.3,
+      "model": {
+        "p_a": 0.5943922123487325,
+        "p_draw": 0.2434851169060262,
+        "p_b": 0.1621226707452413
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "SEN",
+          "model_prob": 0.5943922123487325,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26SENIRQ-SEN",
+            "yes_bid": 0.7,
+            "yes_ask": 0.71,
+            "no_bid": 0.29,
+            "no_ask": 0.3,
+            "last": 0.71,
+            "ts": "2026-06-15T23:14:13.915815+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2434851169060262,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26SENIRQ-TIE",
+            "yes_bid": 0.19,
+            "yes_ask": 0.2,
+            "no_bid": 0.8,
+            "no_ask": 0.81,
+            "last": 0.2,
+            "ts": "2026-06-15T23:36:34.392605+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "IRQ",
+          "model_prob": 0.1621226707452413,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26SENIRQ-IRQ",
+            "yes_bid": 0.11,
+            "yes_ask": 0.12,
+            "no_bid": 0.88,
+            "no_ask": 0.89,
+            "last": 0.12,
+            "ts": "2026-06-15T23:55:18.874403+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN26URUESP",
+      "title": "Uruguay vs Spain Winner?",
+      "kickoff": "2026-06-26",
+      "close_time": "2026-07-11T00:00:00Z",
+      "neutral": true,
+      "team_a": "Uruguay",
+      "team_b": "Spain",
+      "code_a": "URU",
+      "code_b": "ESP",
+      "elo_a": 2021.7,
+      "elo_b": 2306.8,
+      "model": {
+        "p_a": 0.06478959585168427,
+        "p_draw": 0.19506696956525607,
+        "p_b": 0.7401434345830596
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "URU",
+          "model_prob": 0.06478959585168427,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26URUESP-URU",
+            "yes_bid": 0.15,
+            "yes_ask": 0.16,
+            "no_bid": 0.84,
+            "no_ask": 0.85,
+            "last": 0.15,
+            "ts": "2026-06-15T23:54:14.226662+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.19506696956525607,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26URUESP-TIE",
+            "yes_bid": 0.21,
+            "yes_ask": 0.22,
+            "no_bid": 0.78,
+            "no_ask": 0.79,
+            "last": 0.22,
+            "ts": "2026-06-15T23:44:36.182830+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "ESP",
+          "model_prob": 0.7401434345830596,
+          "market": {
+            "ticker": "KXWCGAME-26JUN26URUESP-ESP",
+            "yes_bid": 0.63,
+            "yes_ask": 0.64,
+            "no_bid": 0.36,
+            "no_ask": 0.37,
+            "last": 0.64,
+            "ts": "2026-06-15T23:54:14.226662+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN27CODUZB",
+      "title": "Congo DR vs Uzbekistan Winner?",
+      "kickoff": "2026-06-27",
+      "close_time": "2026-07-11T23:30:00Z",
+      "neutral": true,
+      "team_a": "DR Congo",
+      "team_b": "Uzbekistan",
+      "code_a": "COD",
+      "code_b": "UZB",
+      "elo_a": 1827.8,
+      "elo_b": 1928.0,
+      "model": {
+        "p_a": 0.22987917332138702,
+        "p_draw": 0.2593537564092223,
+        "p_b": 0.5107670702693907
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "COD",
+          "model_prob": 0.22987917332138702,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27CODUZB-COD",
+            "yes_bid": 0.4,
+            "yes_ask": 0.41,
+            "no_bid": 0.59,
+            "no_ask": 0.6,
+            "last": 0.41,
+            "ts": "2026-06-15T23:45:39.874191+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2593537564092223,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27CODUZB-TIE",
+            "yes_bid": 0.28,
+            "yes_ask": 0.29,
+            "no_bid": 0.71,
+            "no_ask": 0.72,
+            "last": 0.29,
+            "ts": "2026-06-15T23:36:34.392605+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "UZB",
+          "model_prob": 0.5107670702693907,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27CODUZB-UZB",
+            "yes_bid": 0.31,
+            "yes_ask": 0.32,
+            "no_bid": 0.68,
+            "no_ask": 0.69,
+            "last": 0.32,
+            "ts": "2026-06-15T23:44:36.182830+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN27COLPOR",
+      "title": "Colombia vs Portugal Winner?",
+      "kickoff": "2026-06-27",
+      "close_time": "2026-07-11T23:30:00Z",
+      "neutral": true,
+      "team_a": "Colombia",
+      "team_b": "Portugal",
+      "code_a": "COL",
+      "code_b": "POR",
+      "elo_a": 2082.8,
+      "elo_b": 2082.1,
+      "model": {
+        "p_a": 0.3660021351808146,
+        "p_draw": 0.2699994765697303,
+        "p_b": 0.3639983882494552
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "COL",
+          "model_prob": 0.3660021351808146,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27COLPOR-COL",
+            "yes_bid": 0.26,
+            "yes_ask": 0.27,
+            "no_bid": 0.73,
+            "no_ask": 0.74,
+            "last": 0.27,
+            "ts": "2026-06-15T23:57:05.855313+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.2699994765697303,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27COLPOR-TIE",
+            "yes_bid": 0.26,
+            "yes_ask": 0.28,
+            "no_bid": 0.72,
+            "no_ask": 0.74,
+            "last": 0.28,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "POR",
+          "model_prob": 0.3639983882494552,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27COLPOR-POR",
+            "yes_bid": 0.47,
+            "yes_ask": 0.48,
+            "no_bid": 0.52,
+            "no_ask": 0.53,
+            "last": 0.48,
+            "ts": "2026-06-15T23:57:05.855313+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN27CROGHA",
+      "title": "Croatia vs Ghana Winner?",
+      "kickoff": "2026-06-27",
+      "close_time": "2026-07-11T21:00:00Z",
+      "neutral": true,
+      "team_a": "Croatia",
+      "team_b": "Ghana",
+      "code_a": "CRO",
+      "code_b": "GHA",
+      "elo_a": 2026.1,
+      "elo_b": 1670.6,
+      "model": {
+        "p_a": 0.8041564968844346,
+        "p_draw": 0.16286067735521303,
+        "p_b": 0.032982825760352386
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "CRO",
+          "model_prob": 0.8041564968844346,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27CROGHA-CRO",
+            "yes_bid": 0.59,
+            "yes_ask": 0.6,
+            "no_bid": 0.4,
+            "no_ask": 0.41,
+            "last": 0.59,
+            "ts": "2026-06-15T23:44:36.182830+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.16286067735521303,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27CROGHA-TIE",
+            "yes_bid": 0.24,
+            "yes_ask": 0.25,
+            "no_bid": 0.75,
+            "no_ask": 0.76,
+            "last": 0.25,
+            "ts": "2026-06-15T23:47:39.869030+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "GHA",
+          "model_prob": 0.032982825760352386,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27CROGHA-GHA",
+            "yes_bid": 0.16,
+            "yes_ask": 0.17,
+            "no_bid": 0.83,
+            "no_ask": 0.84,
+            "last": 0.17,
+            "ts": "2026-06-15T23:55:18.874403+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN27DZAAUT",
+      "title": "Algeria vs Austria Winner?",
+      "kickoff": "2026-06-27",
+      "close_time": "2026-07-12T02:00:00Z",
+      "neutral": true,
+      "team_a": "Algeria",
+      "team_b": "Austria",
+      "code_a": "DZA",
+      "code_b": "AUT",
+      "elo_a": 1882.4,
+      "elo_b": 1844.2,
+      "model": {
+        "p_a": 0.4204945561735714,
+        "p_draw": 0.26843112822839255,
+        "p_b": 0.31107431559803606
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "DZA",
+          "model_prob": 0.4204945561735714,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27DZAAUT-DZA",
+            "yes_bid": 0.25,
+            "yes_ask": 0.26,
+            "no_bid": 0.74,
+            "no_ask": 0.75,
+            "last": 0.26,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.26843112822839255,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27DZAAUT-TIE",
+            "yes_bid": 0.3,
+            "yes_ask": 0.31,
+            "no_bid": 0.69,
+            "no_ask": 0.7,
+            "last": 0.3,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "AUT",
+          "model_prob": 0.31107431559803606,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27DZAAUT-AUT",
+            "yes_bid": 0.43,
+            "yes_ask": 0.44,
+            "no_bid": 0.56,
+            "no_ask": 0.57,
+            "last": 0.43,
+            "ts": "2026-06-15T23:57:05.855313+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN27JORARG",
+      "title": "Jordan vs Argentina Winner?",
+      "kickoff": "2026-06-27",
+      "close_time": "2026-07-12T02:00:00Z",
+      "neutral": true,
+      "team_a": "Jordan",
+      "team_b": "Argentina",
+      "code_a": "JOR",
+      "code_b": "ARG",
+      "elo_a": 1927.0,
+      "elo_b": 2215.8,
+      "model": {
+        "p_a": 0.0627324090771478,
+        "p_draw": 0.1934117836778676,
+        "p_b": 0.7438558072449846
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "JOR",
+          "model_prob": 0.0627324090771478,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27JORARG-JOR",
+            "yes_bid": 0.06,
+            "yes_ask": 0.07,
+            "no_bid": 0.93,
+            "no_ask": 0.94,
+            "last": 0.07,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.1934117836778676,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27JORARG-TIE",
+            "yes_bid": 0.1,
+            "yes_ask": 0.11,
+            "no_bid": 0.89,
+            "no_ask": 0.9,
+            "last": 0.11,
+            "ts": "2026-06-15T23:59:14.405073+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "ARG",
+          "model_prob": 0.7438558072449846,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27JORARG-ARG",
+            "yes_bid": 0.83,
+            "yes_ask": 0.84,
+            "no_bid": 0.16,
+            "no_ask": 0.17,
+            "last": 0.83,
+            "ts": "2026-06-15T23:55:18.874403+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "event": "KXWCGAME-26JUN27PANENG",
+      "title": "Panama vs England Winner?",
+      "kickoff": "2026-06-27",
+      "close_time": "2026-07-11T21:00:00Z",
+      "neutral": true,
+      "team_a": "Panama",
+      "team_b": "England",
+      "code_a": "PAN",
+      "code_b": "ENG",
+      "elo_a": 1980.6,
+      "elo_b": 2203.3,
+      "model": {
+        "p_a": 0.10654899541945767,
+        "p_draw": 0.22143597295548473,
+        "p_b": 0.6720150316250576
+      },
+      "legs": [
+        {
+          "outcome": "A",
+          "code": "PAN",
+          "model_prob": 0.10654899541945767,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27PANENG-PAN",
+            "yes_bid": 0.09,
+            "yes_ask": 0.1,
+            "no_bid": 0.9,
+            "no_ask": 0.91,
+            "last": 0.1,
+            "ts": "2026-06-15T23:58:42.478960+00:00"
+          }
+        },
+        {
+          "outcome": "TIE",
+          "code": "TIE",
+          "model_prob": 0.22143597295548473,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27PANENG-TIE",
+            "yes_bid": 0.13,
+            "yes_ask": 0.14,
+            "no_bid": 0.86,
+            "no_ask": 0.87,
+            "last": 0.14,
+            "ts": "2026-06-15T23:59:46.548336+00:00"
+          }
+        },
+        {
+          "outcome": "B",
+          "code": "ENG",
+          "model_prob": 0.6720150316250576,
+          "market": {
+            "ticker": "KXWCGAME-26JUN27PANENG-ENG",
+            "yes_bid": 0.77,
+            "yes_ask": 0.78,
+            "no_bid": 0.22,
+            "no_ask": 0.23,
+            "last": 0.77,
+            "ts": "2026-06-15T23:58:10.527297+00:00"
+          }
+        }
+      ]
+    }
+  ]
+}

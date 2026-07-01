@@ -1,0 +1,17 @@
+{
+  "n_matches": 63,
+  "n_legs": 189,
+  "our_vig_pct": 4.5,
+  "books_seen": [
+    "kalshi",
+    "sporttery"
+  ],
+  "avg_chance_deviance_pp": 11.33,
+  "correlation_model_vs_consensus": 0.788,
+  "favorite_agreement": 0.81,
+  "mean_book_vig_pct": 3.96,
+  "per_book_mean_abs_gap_pp": {
+    "kalshi": 11.66,
+    "sporttery": 10.8
+  }
+}

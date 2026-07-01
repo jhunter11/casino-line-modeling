@@ -1,0 +1,60 @@
+{
+  "experiment": "world_cup_2026_casino_line",
+  "n_matches": 62,
+  "agreement_full": {
+    "n_matches": 62,
+    "n_legs": 186,
+    "mae_vs_devig": 0.11549791575109787,
+    "rmse_vs_devig": 0.159323525782311,
+    "median_abs_err": 0.08307817239739934,
+    "p90_abs_err": 0.2742115833577704,
+    "correlation": 0.765155718902087,
+    "favorite_agreement": 0.8064516129032258,
+    "mean_overround": 1.006935483870968,
+    "implied_vig_hold": 0.0068877142399490915
+  },
+  "agreement_liquid": {
+    "n_matches": 62,
+    "n_legs": 186,
+    "mae_vs_devig": 0.11549791575109787,
+    "rmse_vs_devig": 0.159323525782311,
+    "median_abs_err": 0.08307817239739934,
+    "p90_abs_err": 0.2742115833577704,
+    "correlation": 0.765155718902087,
+    "favorite_agreement": 0.8064516129032258,
+    "mean_overround": 1.006935483870968,
+    "implied_vig_hold": 0.0068877142399490915
+  },
+  "liquid_max_spread": 0.03,
+  "calibration": {
+    "n_settled_legs": 43,
+    "base_rate": 0.27906976744186046,
+    "brier_model": 0.15720686790697674,
+    "brier_market": 0.14278779069767442,
+    "brier_base": 0.20118983234180615,
+    "skill_vs_market": -0.10098256397727967
+  },
+  "house_simulation": {
+    "0.020": {
+      "vig": 0.02,
+      "mean_hold": 0.02041366741388424,
+      "p05_hold": -0.0927707532359662,
+      "p95_hold": 0.1366379400857892,
+      "theoretical_hold": 0.0196078431372549
+    },
+    "0.045": {
+      "vig": 0.045,
+      "mean_hold": 0.04243418838002501,
+      "p05_hold": -0.06903668765485162,
+      "p95_hold": 0.15613324460966002,
+      "theoretical_hold": 0.0430622009569378
+    },
+    "0.070": {
+      "vig": 0.07,
+      "mean_hold": 0.06508625510947087,
+      "p05_hold": -0.043560106588787895,
+      "p95_hold": 0.17580251310189435,
+      "theoretical_hold": 0.06542056074766356
+    }
+  }
+}
