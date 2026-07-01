@@ -1,4 +1,4 @@
-# Three from-scratch sports lines — can you beat the market, or be it?
+# Three from-scratch sports lines — can you beat the market?
 
 > **TL;DR.** I built three models — **World Cup soccer, MLB, and tennis** — that set betting
 > lines from team/player strength alone, **never seeing a sportsbook's odds** (verified by an
