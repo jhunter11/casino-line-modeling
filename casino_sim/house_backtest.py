@@ -146,19 +146,13 @@ def _plot(cal):
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
-    bins = cal["bins"]
-    fig, ax = plt.subplots(figsize=(5.2, 5.2))
-    ax.plot([0, 1], [0, 1], "--", color="#888", lw=1, label="perfect calibration")
-    ax.plot([b["pred"] for b in bins], [b["obs"] for b in bins], "o-", color="#2b6cb0",
-            label="our model")
-    for b in bins:
-        ax.annotate(f"n={b['n']}", (b["pred"], b["obs"]), fontsize=7,
-                    textcoords="offset points", xytext=(4, -8))
-    ax.set_xlabel("Predicted probability (our model)")
-    ax.set_ylabel("Actual win frequency")
-    ax.set_title(f"World Cup reliability — Brier {cal['brier_model']} vs market {cal['brier_market']}")
-    ax.set_xlim(0, 1); ax.set_ylim(0, 1); ax.set_aspect("equal"); ax.legend(loc="upper left", fontsize=8)
-    fig.tight_layout(); fig.savefig(os.path.join(FIG, "wc_reliability.png"), dpi=130); plt.close(fig)
+    import vizstyle as vs
+    vs.use()
+    fig, ax = plt.subplots(figsize=(5.6, 5.6))
+    vs.reliability(ax, cal["bins"])
+    ax.set_title(f"World Cup — Brier {cal['brier_model']} vs market {cal['brier_market']}")
+    vs.caption(fig, "Above the diagonal is under-confident, below it over-confident.")
+    fig.tight_layout(); fig.savefig(os.path.join(FIG, "wc_reliability.png")); plt.close(fig)
 
 
 if __name__ == "__main__":

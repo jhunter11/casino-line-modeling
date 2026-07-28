@@ -11,6 +11,11 @@ them. Run:  pip install -r requirements.txt  &&  python3 demo.py
 import json
 import os
 import sys
+import warnings
+
+# The boosters are saved with a .bin extension; xgboost guesses the format
+# correctly and warns about it every load. The warning is noise, not news.
+warnings.filterwarnings("ignore", message=".*Unknown file format.*")
 
 import xgboost as xgb
 

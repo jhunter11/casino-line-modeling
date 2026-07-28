@@ -261,34 +261,56 @@ def _make_graphs(mx, cy, rows, summary):
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
 
-    fig, ax = plt.subplots(figsize=(5.2, 5.2))
-    ax.scatter(mx, cy, s=18, alpha=0.6, color="#2b6cb0")
-    ax.plot([0, 1], [0, 1], "--", color="#888", lw=1)
+    import vizstyle as vs
+    vs.use()
+
+    # Agreement without hugging: the point of this plot is the SPREAD around the
+    # diagonal. A model that had learned the line would sit on it.
+    fig, ax = plt.subplots(figsize=(5.6, 5.6))
+    ax.plot([0, 1], [0, 1], "--", color=vs.INK_3, lw=1, zorder=1,
+            label="identical to the books")
+    ax.scatter(mx, cy, s=26, alpha=0.55, color=vs.SERIES[0], zorder=2,
+               linewidths=0, label="one outcome")
     ax.set_xlabel("Our model probability (line-free)")
     ax.set_ylabel("Sportsbook consensus (de-vigged)")
-    ax.set_title(f"Our independent line vs the books\nr={summary['correlation_model_vs_consensus']}  "
-                 f"avg deviance={summary['avg_chance_deviance_pp']}pp")
-    ax.set_xlim(0, 1); ax.set_ylim(0, 1); ax.set_aspect("equal")
-    fig.tight_layout(); fig.savefig(os.path.join(FIG_OUT, "model_vs_consensus.png"), dpi=130); plt.close(fig)
+    ax.set_title("Our independent line vs the books")
+    ax.set_xlim(-0.02, 1.02); ax.set_ylim(-0.02, 1.02); ax.set_aspect("equal")
+    ax.legend(loc="upper left")
+    vs.caption(fig, f"r = {summary['correlation_model_vs_consensus']}, mean gap "
+                    f"{summary['avg_chance_deviance_pp']}pp — directionally aligned, "
+                    f"numerically its own.")
+    fig.tight_layout()
+    fig.savefig(os.path.join(FIG_OUT, "model_vs_consensus.png")); plt.close(fig)
 
     pb = summary["per_book_mean_abs_gap_pp"]
     if pb:
-        items = sorted(pb.items(), key=lambda kv: kv[1])
-        fig, ax = plt.subplots(figsize=(6.2, max(2.5, 0.4 * len(items))))
-        ax.barh([k for k, _ in items], [v for _, v in items], color="#38a169")
-        ax.set_xlabel("Mean |gap| vs our model (pp)")
-        ax.set_title("Which books our model agrees with most")
-        fig.tight_layout(); fig.savefig(os.path.join(FIG_OUT, "per_book_gap.png"), dpi=130); plt.close(fig)
+        items = sorted(pb.items(), key=lambda kv: kv[1], reverse=True)
+        fig, ax = plt.subplots(figsize=(6.4, max(2.4, 0.5 * len(items))))
+        ax.barh([k for k, _ in items], [v for _, v in items],
+                height=0.55, color=vs.SERIES[2])
+        for i, (_, v) in enumerate(items):
+            ax.annotate(f"{v:.1f}pp", (v, i), xytext=(5, 0),
+                        textcoords="offset points", va="center",
+                        fontsize=9, color=vs.INK)
+        ax.set_xlabel("Mean absolute gap vs our line  (pp)")
+        ax.set_title("Which books our line agrees with most")
+        ax.grid(axis="y", visible=False)
+        ax.margins(x=0.16)
+        fig.tight_layout()
+        fig.savefig(os.path.join(FIG_OUT, "per_book_gap.png")); plt.close(fig)
 
-    # deviance by game (sorted) — shows where we agree / disagree with the market
+    # Per game, sorted — the tail on the right is where the model disagrees most,
+    # and those are the games worth reading about.
     rr = sorted(rows, key=lambda r: r["avg_chance_deviance_pp"])
-    fig, ax = plt.subplots(figsize=(6.5, max(3, 0.22 * len(rr))))
+    fig, ax = plt.subplots(figsize=(7.0, max(3, 0.26 * len(rr))))
     ax.barh([r["match"] for r in rr], [r["avg_chance_deviance_pp"] for r in rr],
-            color="#dd6b20")
-    ax.set_xlabel("Avg chance deviance vs consensus (pp)")
-    ax.set_title("Per-game: how far our line sits from the books")
-    ax.tick_params(axis="y", labelsize=6)
-    fig.tight_layout(); fig.savefig(os.path.join(FIG_OUT, "deviance_by_game.png"), dpi=130); plt.close(fig)
+            height=0.68, color=vs.SERIES[1])
+    ax.set_xlabel("Average deviance from the book consensus  (pp)")
+    ax.set_title("Per game: how far our line sits from the books")
+    ax.tick_params(axis="y", labelsize=7.5)
+    ax.grid(axis="y", visible=False)
+    fig.tight_layout()
+    fig.savefig(os.path.join(FIG_OUT, "deviance_by_game.png")); plt.close(fig)
 
 
 if __name__ == "__main__":

@@ -1,14 +1,18 @@
 # Three from-scratch sports lines — can you beat the market?
 
-> **TL;DR.** I built three models — **World Cup soccer, MLB, and tennis** — that set betting
-> lines from team/player strength alone, **never seeing a sportsbook's odds** (verified by an
-> adversarial leakage audit). Then I tested each one *blind*, settled on **real outcomes**,
-> from both sides: as a **bettor** (can it beat the line?) and as a **book** (can it profitably
-> *be* the line?). The honest answer: **no, on both counts** — but I can show exactly how close
-> each gets and precisely how each fails. Everything here uses **only free, public data — zero
-> paid APIs.**
+**Three models — World Cup soccer, MLB strikeout props, and tennis — that set a betting line from team and player strength alone, never seeing a sportsbook's odds.** Then each one tested *blind*, settled on **real outcomes**, from both sides: as a **bettor** trying to beat the line, and as the **book** trying to profitably set it.
 
-This is a market-efficiency study, not a get-rich pitch. The rigor *is* the point.
+The honest answer is **no, on both counts** — and the interesting part is exactly how each one fails. Everything here runs on free public data. Zero paid APIs, zero paid feeds.
+
+```bash
+git clone https://github.com/jhunter11/casino-line-modeling
+cd casino-line-modeling
+python3 explore.py
+```
+
+A numbered menu: the results, the leakage audit, our line next to real books game by game, and a one-key rebuild of every number from source data. Only the *"run the trained models"* item needs anything installed.
+
+This is a market-efficiency study, not a get-rich pitch. The rigour is the point.
 
 ---
 
@@ -100,24 +104,30 @@ odds as a feature is **deliberately excluded** — see the leakage audit.)
 
 ## Reproduce
 
+`python3 explore.py 7` runs all of it and prints what each step produced. Individually:
+
 ```bash
 python3 casino_sim/house_backtest.py            # World Cup calibration + blind book backtest
 python3 casino_sim/house_backtest_mlb.py        # MLB
 python3 casino_sim/house_backtest_tennis.py     # tennis
-python3 casino_sim/three_model_summary.py       # consolidated table + summary figure
 python3 casino_sim/book_compare.py              # our line vs real books, per game (% + American)
+python3 casino_sim/three_model_summary.py       # consolidated table + summary figure
 ```
 
 No paid services; runs offline on committed data (matplotlib for the figures).
 
 ## Honest limitations
 
-- Settled samples are selection-biased (traded subsets) and small for WC/tennis — Ns stated
-  everywhere; conclusions are directional.
+- Settled samples are selection-biased (traded subsets) and small for WC and tennis — Ns are
+  stated everywhere, and the conclusions are directional.
 - Realized full-slate WC outcomes aren't in free data, so the WC backtest uses the settled
   contracts we have.
+- Reliability plots size each dot by its bin count, because some bins hold three observations.
+  Read the small dots as noise.
 
 ---
 
-*Companion repository — how this whole system was built and validated by an autonomous AI
-engineering agent:* **[agentic-quant-operator »](https://github.com/jhunter11/agentic-quant-operator)**
+*The autonomous agent that built and validated this system — its control plane, its guardrails,
+and the evidence gate that refused to promote any of these models to live capital — is a
+separate, self-contained repository:*
+**[agentic-quant-operator »](https://github.com/jhunter11/agentic-quant-operator)**

@@ -284,36 +284,23 @@ def _plot(cal, gw_cal):
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
 
+    import vizstyle as vs
+    vs.use()
+
     have_gw = bool(gw_cal and gw_cal["bins"])
     ncol = 2 if have_gw else 1
-    fig, axes = plt.subplots(1, ncol, figsize=(5.4 * ncol, 5.2), squeeze=False)
-
-    def draw(ax, c, title, color):
-        bins = c["bins"]
-        ax.plot([0, 1], [0, 1], "--", color="#888", lw=1, label="perfect calibration")
-        ax.plot([b["pred"] for b in bins], [b["obs"] for b in bins], "o-",
-                color=color, label="our model")
-        for b in bins:
-            ax.annotate(f"n={b['n']}", (b["pred"], b["obs"]), fontsize=7,
-                        textcoords="offset points", xytext=(4, -8))
-        ax.set_xlabel("Predicted probability (our model)")
-        ax.set_ylabel("Actual win frequency")
-        ax.set_title(title)
-        ax.set_xlim(0, 1)
-        ax.set_ylim(0, 1)
-        ax.set_aspect("equal")
-        ax.legend(loc="upper left", fontsize=8)
+    fig, axes = plt.subplots(1, ncol, figsize=(5.8 * ncol, 5.6), squeeze=False)
 
     bkt = f"vs market {cal['brier_market']}" if cal["brier_market"] is not None else ""
-    draw(axes[0][0], cal,
-         f"MLB k-prop reliability — Brier {cal['brier_model']} {bkt}".strip(),
-         "#2b6cb0")
+    vs.reliability(axes[0][0], cal["bins"], color=vs.SERIES[0])
+    axes[0][0].set_title(f"MLB strikeout props — Brier {cal['brier_model']} {bkt}".strip())
     if have_gw:
-        draw(axes[0][1], gw_cal,
-             f"MLB game-winner reliability — Brier {gw_cal['brier_model']}",
-             "#c05621")
-    fig.tight_layout()
-    fig.savefig(os.path.join(FIG, "mlb_reliability.png"), dpi=130)
+        vs.reliability(axes[0][1], gw_cal["bins"], color=vs.SERIES[1])
+        axes[0][1].set_title(f"MLB game winner — Brier {gw_cal['brier_model']}")
+    fig.tight_layout(w_pad=3)
+    vs.caption(fig, "Every props bin sits above the diagonal: the model consistently "
+                    "under-states how often these contracts hit.")
+    fig.savefig(os.path.join(FIG, "mlb_reliability.png"))
     plt.close(fig)
 
 

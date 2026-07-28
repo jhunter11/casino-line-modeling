@@ -54,30 +54,48 @@ def main():
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
-    fig, (a1, a2) = plt.subplots(1, 2, figsize=(11, 4.6))
+
+    import vizstyle as vs
+    vs.use()
+
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=(11.5, 4.8))
     names = [r["sport"] for r in rows]
-    x = range(len(names))
+    x = list(range(len(names)))
 
-    # left: house hold @4.5% crowd vs sharp
-    w = 0.36
-    a1.bar([i - w/2 for i in x], [r["crowd"]*100 for r in rows], w, label="crowd flow", color="#3182ce")
-    a1.bar([i + w/2 for i in x], [r["sharp"]*100 for r in rows], w, label="sharp flow", color="#e53e3e")
-    a1.axhline(0, color="#333", lw=1)
-    a1.set_xticks(list(x)); a1.set_xticklabels(names)
-    a1.set_ylabel("House hold (%) at 4.5% vig")
-    a1.set_title("Run a book on our line: does it profit?")
-    a1.legend(fontsize=8)
+    # Left — can this line profitably BE the book, against each kind of flow?
+    w = 0.34
+    b1 = a1.bar([i - w / 2 for i in x], [r["crowd"] * 100 for r in rows], w,
+                label="casual flow", color=vs.SERIES[0])
+    b2 = a1.bar([i + w / 2 for i in x], [r["sharp"] * 100 for r in rows], w,
+                label="informed flow", color=vs.SERIES[1])
+    vs.zero_line(a1, "break-even")
+    vs.label_bars(a1, list(b1) + list(b2))
+    a1.set_xticks(x)
+    a1.set_xticklabels(names)
+    a1.set_ylabel("House hold at 4.5% vig  (%)")
+    a1.set_title("As the book: does the vig survive?")
+    a1.legend(loc="lower left")
+    a1.set_ylim(min(r["sharp"] for r in rows) * 100 - 18, 22)
+    vs.horizontal_grid_only(a1)
 
-    # right: Brier skill vs market (0 = market; negative = worse)
-    a2.bar(list(x), [r["skill"] for r in rows],
-           color=["#38a169" if r["skill"] >= 0 else "#dd6b20" for r in rows])
-    a2.axhline(0, color="#333", lw=1)
-    a2.set_xticks(list(x)); a2.set_xticklabels(names)
-    a2.set_ylabel("Brier skill vs market")
-    a2.set_title("Calibration vs the market (0 = market, <0 = worse)")
-    fig.suptitle("Three from-scratch sports lines — honest blind evaluation", fontweight="bold")
-    fig.tight_layout()
-    fig.savefig(os.path.join(FIG, "three_model_summary.png"), dpi=130, bbox_inches="tight")
+    # Right — is the line better calibrated than the market's own price?
+    b3 = a2.bar(x, [r["skill"] for r in rows], 0.5,
+                color=[vs.GOOD if r["skill"] >= 0 else vs.BAD for r in rows])
+    vs.zero_line(a2, "the market")
+    vs.label_bars(a2, b3, fmt="{:+.3f}")
+    a2.set_xticks(x)
+    a2.set_xticklabels(names)
+    a2.set_ylabel("Brier skill vs the market")
+    a2.set_title("As the bettor: is the model sharper than the line?")
+    a2.set_ylim(min(r["skill"] for r in rows) - 0.09, 0.06)
+    vs.horizontal_grid_only(a2)
+
+    fig.suptitle("Three from-scratch sports lines, blind-tested from both sides",
+                 fontweight="bold", fontsize=13, y=1.02)
+    fig.tight_layout(w_pad=4)
+    vs.caption(fig, "Every bar that matters is negative: the models lose to the market "
+                    "as bettors, and lose to informed money as the book.")
+    fig.savefig(os.path.join(FIG, "three_model_summary.png"))
     plt.close(fig)
 
     print("\n".join(L))
