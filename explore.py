@@ -184,6 +184,7 @@ def item_models():
              "results rather than re-running the models.")
         return
     print()
+    sys.stdout.flush()   # keep our output ahead of the child's when piped
     subprocess.run([sys.executable, os.path.join(HERE, "demo.py")], cwd=HERE)
 
 
