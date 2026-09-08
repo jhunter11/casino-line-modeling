@@ -72,4 +72,15 @@ This repository records the inputs used for the study. It does not promise curre
 
 Historical reports retain their dated results and assumptions.
 
+## Verify the reproduction command
+
+```bash
+python -m unittest discover -s tests -v
+python -X utf8 explore.py 7
+```
+
+The tests check that a failed analysis stops dependent reports and returns a nonzero exit code.
+The reproduction command runs five analysis scripts against committed data. It requires matplotlib to regenerate figures.
+Version numbers in model filenames identify saved model artifacts. Each sport has its own backtest because its outcomes and settlement rules differ.
+
 The related [agentic-quant-operator](https://github.com/jhunter11/agentic-quant-operator) repository contains the research workflow and promotion checks.

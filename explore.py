@@ -31,11 +31,24 @@ def _c(code, s):
     return f"\033[{code}m{s}\033[0m" if _COLOR else s
 
 
-def bold(s): return _c("1", s)
-def dim(s): return _c("2", s)
-def cyan(s): return _c("36", s)
-def green(s): return _c("32", s)
-def red(s): return _c("31", s)
+def bold(s):
+    return _c("1", s)
+
+
+def dim(s):
+    return _c("2", s)
+
+
+def cyan(s):
+    return _c("36", s)
+
+
+def green(s):
+    return _c("32", s)
+
+
+def red(s):
+    return _c("31", s)
 
 
 def header(title):
@@ -69,7 +82,11 @@ def show_markdown(path, limit=None):
     shown = 0
     for line in lines:
         if limit and shown >= limit:
-            print(dim(f"  … {len(lines) - shown} more lines in {os.path.relpath(path, HERE)}"))
+            print(
+                dim(
+                    f"  … {len(lines) - shown} more lines in {os.path.relpath(path, HERE)}"
+                )
+            )
             break
         s = line.rstrip()
         if s.startswith("#"):
@@ -119,10 +136,14 @@ def item_overview():
     rule("what makes it credible")
     print()
     bullet("Blind: probabilities fixed pre-game, graded against real results.")
-    bullet("Audited: three adversarial reviewers, each told to assume the line "
-           "leaks and to prove it. Item 4.")
-    bullet("Both directions: bettor and book, so a model can't hide behind "
-           "one framing. Item 2.")
+    bullet(
+        "Audited: three adversarial reviewers, each told to assume the line "
+        "leaks and to prove it. Item 4."
+    )
+    bullet(
+        "Both directions: bettor and book, so a model can't hide behind "
+        "one framing. Item 2."
+    )
     bullet("Reproducible: item 7 regenerates every number from committed data.")
 
 
@@ -149,19 +170,25 @@ def item_headline():
         "actually right; the vig does not save a wrong line."
     )
     print()
-    for name, fn in [("World Cup", "house_backtest_wc.json"),
-                     ("MLB k-prop", "house_backtest_mlb.json"),
-                     ("Tennis", "house_backtest_tennis.json")]:
+    for name, fn in [
+        ("World Cup", "house_backtest_wc.json"),
+        ("MLB k-prop", "house_backtest_mlb.json"),
+        ("Tennis", "house_backtest_tennis.json"),
+    ]:
         p = os.path.join(DATA, fn)
         if not os.path.exists(p):
             continue
         c = json.load(open(p))["calibration"]
         fav, dog = c["favorites"], c["underdogs"]
         print(f"  {bold(name)}")
-        print(f"    favourites  predicted {fav['mean_pred']:.0%}  →  actual "
-              f"{fav['mean_actual']:.0%}   (n={fav['n']})")
-        print(f"    underdogs   predicted {dog['mean_pred']:.0%}  →  actual "
-              f"{dog['mean_actual']:.0%}   (n={dog['n']})")
+        print(
+            f"    favourites  predicted {fav['mean_pred']:.0%}  →  actual "
+            f"{fav['mean_actual']:.0%}   (n={fav['n']})"
+        )
+        print(
+            f"    underdogs   predicted {dog['mean_pred']:.0%}  →  actual "
+            f"{dog['mean_actual']:.0%}   (n={dog['n']})"
+        )
 
 
 def item_models():
@@ -180,11 +207,13 @@ def item_models():
         print()
         bullet("pip install -r requirements.txt")
         print()
-        note("Every other menu item works without it — they read committed "
-             "results rather than re-running the models.")
+        note(
+            "Every other menu item works without it — they read committed "
+            "results rather than re-running the models."
+        )
         return
     print()
-    sys.stdout.flush()   # keep our output ahead of the child's when piped
+    sys.stdout.flush()  # keep our output ahead of the child's when piped
     subprocess.run([sys.executable, os.path.join(HERE, "demo.py")], cwd=HERE)
 
 
@@ -221,7 +250,7 @@ def item_books():
         print(dim("  run item 7 first"))
         return
     lines = open(path).read().splitlines()
-    table = [l for l in lines if l.startswith("|")]
+    table = [line for line in lines if line.startswith("|")]
     print()
     for line in table[:2]:
         print("  " + line)
@@ -272,8 +301,10 @@ def item_figures():
         mark = green("✓") if os.path.exists(p) else dim("·")
         print(f"  {mark} casino_sim/figures/{name:26s} {dim(what)}")
     print()
-    note("Regenerate them all with item 7. On macOS, `open casino_sim/figures` "
-         "to browse; they are also embedded in the README.")
+    note(
+        "Regenerate them all with item 7. On macOS, `open casino_sim/figures` "
+        "to browse; they are also embedded in the README."
+    )
 
 
 def item_reproduce():
@@ -293,16 +324,22 @@ def item_reproduce():
     print()
     for script, what in steps:
         print(f"  {cyan('▸')} {os.path.basename(script):32s} {dim(what)}")
-        r = subprocess.run([sys.executable, script], cwd=HERE,
-                           capture_output=True, text=True)
+        command = [sys.executable, "-X", "utf8", script]
+        r = subprocess.run(
+            command, cwd=HERE, capture_output=True, text=True, encoding="utf-8"
+        )
         if r.returncode == 0:
-            tail = [l for l in r.stdout.splitlines() if l.strip()][-1:]
+            tail = [line for line in r.stdout.splitlines() if line.strip()][-1:]
             for line in tail:
-                print(f"    {dim(line[:WIDTH - 6])}")
+                print(f"    {dim(line[: WIDTH - 6])}")
         else:
-            print(f"    {red('failed')} {dim((r.stderr or '').strip().splitlines()[-1][:60])}")
+            details = (r.stderr or r.stdout or f"exit status {r.returncode}").strip()
+            print(f"    {red('failed')}\n{details}")
+            raise subprocess.CalledProcessError(
+                r.returncode, command, output=r.stdout, stderr=r.stderr
+            )
     print()
-    note("Every table and figure in the README is now rebuilt from source data.")
+    note("Completed all five analysis scripts.")
 
 
 def item_source():
@@ -377,7 +414,13 @@ def run(choice):
 
 def main(argv):
     if len(argv) > 1:
-        run(argv[1])
+        try:
+            run(argv[1])
+        except subprocess.CalledProcessError as error:
+            print(
+                "Reproduction stopped after a failed analysis script.", file=sys.stderr
+            )
+            return error.returncode if error.returncode > 0 else 1
         return 0
     if not sys.stdin.isatty():
         show_menu()
@@ -390,8 +433,13 @@ def main(argv):
         except (EOFError, KeyboardInterrupt):
             print()
             return 0
-        if not run(choice):
-            return 0
+        try:
+            if not run(choice):
+                return 0
+        except subprocess.CalledProcessError:
+            print(
+                "Reproduction stopped after a failed analysis script.", file=sys.stderr
+            )
         print()
         try:
             input(dim("  ↵ back to the menu "))
