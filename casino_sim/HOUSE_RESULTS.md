@@ -1,37 +1,27 @@
-# World Cup 2026 — House Economics: Vig vs Line-Shading
+# World Cup house simulation: vig and line shading
 
-_$\,50M house money · $50M handle across 62 matches · 20,000 Monte Carlo seasons · 4.5% posted vig. True outcomes drawn from our model._
+This recorded simulation uses 62 matches, $50 million of handle, a $50 million bankroll, and 20,000 simulated seasons. It assumes a 4.5 percent posted vig and draws outcomes from the model probabilities.
 
-**The question:** does the house profit only from the vig, or can it earn more by shading the line toward what the public over-bets?
+The demand parameter `gamma` controls favorite bias. A value of 1.0 represents the model's unbiased-demand setting. Higher values increase the simulated preference for favorites.
 
-## Answer, by how biased the public is
+| Gamma | Flat-vig hold | Shaded-line hold | Additional simulated profit | Average favorite-price change | Shaded probability of loss |
+| --- | --- | --- | --- | --- | --- |
+| 1.0 | 4.29% ($2.15M) | 4.29% ($2.14M) | Approximately $0 | Approximately 0 cents | 5.9% |
+| 1.3 | 4.29% ($2.15M) | 4.65% ($2.32M) | $0.18M | +3.02 cents | 4.0% |
+| 1.6 | 4.30% ($2.15M) | 5.74% ($2.87M) | $0.72M | +5.81 cents | 2.0% |
 
-`gamma` = public favorite-bias. **gamma 1.0 = unbiased crowd; higher = the public over-bets favorites.** We compare an honest line (true probs + flat vig) to the profit-maximizing shaded line.
+Under this demand function, shading adds little at gamma 1.0 and more as favorite bias increases. This is a result of the assumed demand and outcome models. It does not measure actual customer behavior or establish the profit of a real sportsbook.
 
-| Public bias gamma | Honest line hold | Shaded line hold | Extra from shading | Fav price moved | Shaded P(house loss) |
-|---|---|---|---|---|---|
-| 1.0 | 4.29% ($+2.15M) | 4.29% ($+2.14M) | **$-0.00M** | -0.00¢ | 5.9% |
-| 1.3 | 4.29% ($+2.15M) | 4.65% ($+2.32M) | **$+0.18M** | +3.02¢ | 4.0% |
-| 1.6 | 4.30% ($+2.15M) | 5.74% ($+2.87M) | **$+0.72M** | +5.81¢ | 2.0% |
+## Recorded risk at gamma 1.3
 
-## What it says
+The flat-vig simulation has a mean profit of $2.15 million and a 6.8 percent probability of loss. Its fifth-to-ninety-fifth percentile range is -$0.22 million to $4.54 million. The worst simulated season loses $3.48 million.
 
-- **Unbiased crowd (gamma 1.0): shading adds essentially nothing** ($-0.00M). The profit-max line collapses to the flat vig — *the vig is the entire edge.* This is the mathematically forced result when bettors bet the true probabilities.
+The shaded simulation has a mean profit of $2.32 million and a 4.0 percent probability of loss. Its corresponding range is $0.12 million to $4.50 million. The worst simulated season loses $3.05 million.
 
-- **Biased crowd (gamma 1.6): shading adds real money** ($+0.72M on $50M handle, on top of the vig) by moving the favorite's price ~+5.8¢ — charging the crowd more for the side it loves.
+These finite simulated tails are not loss limits. Other demand patterns, correlated outcomes, or inaccurate probabilities can change both margin and risk.
 
-- **The vig still dominates:** it earns ~$+2.15M vs shading's +0.18M increment — so your instinct is right, the vig is the bigger lever; shading is a real but secondary boost.
+## Alternative outcome assumption
 
-- **Risk (the surprising part):** at the profit-max shade, downside risk did NOT rise — P(house loss) moved 6.8% → 4.0% (gamma 1.3), because the extra margin sits on the favorite, the modal winner. Shading only becomes risk-*increasing* if pushed PAST the profit-max point to take a directional position; real books cap it at their risk appetite.
+The recorded run using normalized market probabilities as truth adds $1.04 million from shading at gamma 1.6. That comparison tests a second probability assumption. It does not establish that the conclusion holds for arbitrary pricing errors or demand responses.
 
-## Risk view (gamma 1.3, our model as truth)
-
-- **Honest line:** mean $+2.15M · 5th–95th pct $-0.22M to $+4.54M · worst season $-3.48M (7.0% of bankroll) · P(loss) 6.8%
-- **Shaded line:** mean $+2.32M · 5th–95th pct $+0.12M to $+4.50M · worst season $-3.05M (6.1% of bankroll) · P(loss) 4.0%
-
-## Robustness: same conclusion if the *market* is right instead of us
-
-Re-running with the market's de-vigged probs as truth (gamma 1.6): shading still adds $+1.04M — the vig-vs-shading conclusion does not depend on whose probabilities are correct.
-
----
-_Reproduce: `python3 casino_sim/house_montecarlo.py` — no dependencies. Bias and sentiment parameters are explicit assumptions; the result is the *dependence on them*, not a single number._
+Run `python -X utf8 casino_sim/house_montecarlo.py` from the repository root to inspect the simulation. Review its bias, sentiment, pricing, and outcome assumptions with the result.

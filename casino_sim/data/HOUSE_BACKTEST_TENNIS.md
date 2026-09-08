@@ -1,24 +1,21 @@
-# Tennis — calibration & blind house backtest (real outcomes)
+# Tennis: recorded calibration and house simulation
 
-_26 settled matches (one binary row per match, player-1-centric), model probability set pre-match, settled on the actual result. Subset of the full slate — only matches that later settled get an outcome, so N is small and skews toward traded events; stated honestly._
+This report uses 26 selected settled matches. Selection and shared outcomes limit how broadly the results can be interpreted. The public export alone does not independently authenticate when each source forecast was first recorded.
 
-## Are our probabilities actually right? (vs TRUTH, not the casino)
+## Forecast measurements
 
-- Brier — **model 0.2128** vs market 0.1502 (skill vs market -0.417) · ECE 0.1875 · base rate 0.4615
-- **Favorites (model ≥50%):** predicted 78% → actually won 60%  (n=15)
-- **Underdogs (model <50%):** predicted 33% → actually won 27%  (n=11)
+The model Brier score is 0.2128, compared with 0.1502 for the market baseline. Skill relative to the market is -0.417. The recorded calibration error is 0.1875, and the outcome base rate is 0.4615.
 
-> Favorites won 18pp LESS than the model predicted — model is OVER-confident on favorites (over-prices them).
+For the 15 observations with model probability at least 50 percent, the mean prediction is 78% and the outcome rate is 60%. For the other 11 observations, those values are 33% and 27%. These grouped summaries omit uncertainty intervals and do not establish performance on a new sample.
 
-## Would a book on our line make money? (blind, settled on real results)
+## Assumed house demand
 
-House hold per unit of action — **crowd** = bettors follow the market; **sharp** = bettors exploit wherever we price below the market (worst case):
+The crowd rule allocates demand in proportion to market prices. The sharp rule directs demand toward favorable differences between the model and market prices. Neither rule measures actual customer flow or proves a worst-case exposure.
 
-| Posted vig | Crowd flow | Sharp flow |
-|---|---|---|
+| Posted vig | Crowd hold | Sharp hold |
+| --- | ---: | ---: |
 | 0.0% | -63.6% | -99.6% |
 | 4.5% | -56.6% | -91.0% |
 | 7.0% | -52.9% | -86.5% |
 
-> At a 4.5% vig the book LOSES 56.6% against crowd flow, and LOSES 91.0% against sharp bettors — the honest verdict on whether our tennis line is sharp enough to be the book.
-
+The table reports simulated hold under those demand rules using recorded outcomes. It excludes many costs and operating constraints of a real book. The negative sharp-demand result supplies a reason to reject this pricing configuration for that scenario.

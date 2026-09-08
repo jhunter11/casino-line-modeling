@@ -1,24 +1,21 @@
-# World Cup — calibration & blind house backtest (real outcomes)
+# World Cup: recorded calibration and house simulation
 
-_43 settled contracts, model probability set pre-game, settled on the actual result. Edge-filtered subset — selection-biased, small N; stated honestly._
+This report uses 43 selected settled contracts. Selection and shared outcomes limit how broadly the results can be interpreted. The public export alone does not independently authenticate when each source forecast was first recorded.
 
-## Are our probabilities actually right? (vs TRUTH, not the casino)
+## Forecast measurements
 
-- Brier — **model 0.1572** vs market 0.1428 (skill vs market -0.101) · ECE 0.1271 · base rate 0.2791
-- **Favorites (model ≥50%):** predicted 71% → actually won 67%  (n=12)
-- **Underdogs (model <50%):** predicted 22% → actually won 13%  (n=31)
+The model Brier score is 0.1572, compared with 0.1428 for the market baseline. Skill relative to the market is -0.101. The recorded calibration error is 0.1271, and the outcome base rate is 0.2791.
 
-> Favorites won 4pp LESS than the model predicted — model not under-confident here.
+For the 12 observations with model probability at least 50 percent, the mean prediction is 71% and the outcome rate is 67%. For the other 31 observations, those values are 22% and 13%. These grouped summaries omit uncertainty intervals and do not establish performance on a new sample.
 
-## Would a book on our line make money? (blind, settled on real results)
+## Assumed house demand
 
-House hold per unit of action — **crowd** = bettors follow the market; **sharp** = bettors exploit wherever we price below the market (worst case):
+The crowd rule allocates demand in proportion to market prices. The sharp rule directs demand toward favorable differences between the model and market prices. Neither rule measures actual customer flow or proves a worst-case exposure.
 
-| Posted vig | Crowd flow | Sharp flow |
-|---|---|---|
+| Posted vig | Crowd hold | Sharp hold |
+| --- | ---: | ---: |
 | 0.0% | -6.6% | -20.6% |
 | 4.5% | -2.0% | -15.4% |
 | 7.0% | +0.4% | -12.8% |
 
-> At a 4.5% vig the book LOSES 2.0% against crowd flow, but LOSES 15.4% against sharp bettors — the honest verdict on whether our line is sharp enough to be the book.
-
+The table reports simulated hold under those demand rules using recorded outcomes. It excludes many costs and operating constraints of a real book. The negative sharp-demand result supplies a reason to reject this pricing configuration for that scenario.

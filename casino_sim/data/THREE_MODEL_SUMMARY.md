@@ -1,12 +1,13 @@
-# Three line-free models, tested as bettor AND book (blind, real outcomes)
+# Three models against market-price baselines
 
-_Each model sets its probabilities pre-game, with no access to any betting line. We then check calibration against actual results and simulate running a book on the line. Samples are settled, selection-biased traded subsets — Ns stated._
+These recorded results compare model forecasts with outcomes and simulate a book using two assumed demand rules. The samples are selected settled subsets. They are small or dependent enough that the reported point estimates need qualification.
 
-| Sport | N | Brier (model / market) | Skill vs market | Favorites pred→actual | House @4.5% (crowd) | House @4.5% (sharp) |
-|---|---|---|---|---|---|---|
-| World Cup | 43 | 0.157 / 0.143 | -0.101 | 71% → 67% | -2.0% | -15.4% |
-| MLB (k-prop) | 1364 | 0.160 / 0.158 | -0.017 | 77% → 83% | +1.5% | -21.7% |
-| Tennis | 26 | 0.213 / 0.150 | -0.417 | 78% → 60% | -56.6% | -91.0% |
+| Sport | Rows | Brier model / market | Skill relative to market | Favorite prediction / outcome rate | Hold at 4.5% vig, crowd | Hold at 4.5% vig, sharp |
+| --- | ---: | --- | ---: | --- | ---: | ---: |
+| World Cup | 43 | 0.157 / 0.143 | -0.101 | 71% / 67% | -2.0% | -15.4% |
+| MLB strikeout props | 1,364 | 0.160 / 0.158 | -0.017 | 77% / 83% | +1.5% | -21.7% |
+| Tennis | 26 | 0.213 / 0.150 | -0.417 | 78% / 60% | -56.6% | -91.0% |
 
-**Takeaway:** none of the three beats the market on calibration (all skill ≤ 0), and none is sharp enough to profitably *be* the book against informed money (every sharp-flow column is deeply negative). MLB props come closest — near-market calibration, and the only line that skims the casual crowd at vig (+1.5%). World Cup and tennis lose. The honest verdict: **the market is hard to beat from either side, and we can show exactly how each model falls short.**
+All three model Brier scores trail their market baselines in these samples. Under the specified sharp-demand simulation, all three books lose. MLB shows a positive hold only under the crowd-demand assumption at this vig.
 
+The simulated demand rules do not represent measured customer flow or a proven worst case. These comparisons establish no trading edge, real operating profit, or universal claim about market efficiency.
