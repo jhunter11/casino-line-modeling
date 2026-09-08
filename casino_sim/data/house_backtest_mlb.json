@@ -105,7 +105,7 @@
     ]
   },
   "notes": {
-    "kprop_caveat": "edge-observed prop subset; selection-biased; deduped by ticker; 2026-06-14..2026-06-25.",
-    "gamewinner_caveat": "361 home-team game-winner rows, real outcomes, NO captured market price (training-matrix settle, pre-dates our pregame price capture) -> market column & house sim N/A for this spine."
+    "kprop_caveat": "The subset includes only props with observed edge signals from June 14 through June 25, 2026. This filter biases the sample. Each ticker appears once.",
+    "gamewinner_caveat": "The 361 home-team game-winner rows contain actual outcomes from the training matrix. They predate pregame price capture. Market comparisons and house simulations do not apply because these rows lack captured market prices."
   }
 }
