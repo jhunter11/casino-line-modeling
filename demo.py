@@ -13,11 +13,11 @@ import os
 import sys
 import warnings
 
+import xgboost as xgb
+
 # The boosters are saved with a .bin extension; xgboost guesses the format
 # correctly and warns about it every load. The warning is noise, not news.
 warnings.filterwarnings("ignore", message=".*Unknown file format.*")
-
-import xgboost as xgb
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 M = os.path.join(HERE, "models")
@@ -87,10 +87,20 @@ def wc_demo():
               f"home {pa:.1%} / draw {pd:.1%} / away {pb:.1%}")
 
 
-if __name__ == "__main__":
+def main():
+    failures = 0
     for fn in (tennis_demo, mlb_demo, wc_demo):
         try:
             fn()
         except Exception as e:
+            failures += 1
             print(f"  [section error: {type(e).__name__}: {e}]")
+    if failures:
+        print(f"\nFailed to run {failures} model sections.")
+        return 1
     print("\nDone. Every number above came from the actual committed models in ./models/.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
